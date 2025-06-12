@@ -16,24 +16,24 @@
 		"introduction": "Greetings. I'm Jiri Podebrad. But my name is also Georg. I hope we will find a common language.",
 		
 		"neutralHello": "My people have spoken highly of you.",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralLetsHearIt": ["Go on.","I'm all ears.","You may begin."],
 		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralYes": ["Very good.","Of course, yes.","Okay, that's a deal."],
 
-		"hateHello": "What do you want now?",
+		"hateHello": "I had a higher opinion of you.",
 		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
 		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateYes": ["So be it, I agree.","That is good enough.","Very well..."],
 		
 		"afterPeace": "Peace is a virtue of civilization, war is its crime. Finally, sanity has visited you!",
 		"tradeRequest": "Don't worry: if you don't like this deal, we'll soften it up.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [197,72,55],
+		"innerColor": [244,244,244],
+		"unique": "Ideologists of the Reformation, The Pearl of Crowns",
+		"cities": ["Praha","Brno","","Ostrava","Plzen","Liberec","Olomouc","Pardubice","Karlovy Vary",
+			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Děčín","Ústí nad Labem","Teplice","Kladno","Most",
+			"České Budějovice","","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
+			"Tábor","Cheb","Trutnov","Písek","Šumperk","Sokolov"]
 	}
 ]
