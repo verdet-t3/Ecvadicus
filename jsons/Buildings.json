@@ -1,25 +1,47 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Pražský hrad",
+		"replaces": "Palace",
+		"uniqueTo": "Bohemia",
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 2,
+		"cityStrength": 4,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"cost": 0,
+		"uniques": ["Indicates the capital city","[+1 Culture] <after discovering [Chivalry]>"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Vřídlo",
+		"replaces": "Garden",
+		"uniqueTo": "Bohemia",
+		"cost": 150,
+		"hurryCostModifier": 170,
+		"happiness": 4,
+		"uniques": ["15% of food is carried over after a new citizen is born", "[+20]% Great Person generation [in this city]"],
+		"requiredTech": "Drama and Poetry"
 	}
+	{
+		"name": "Univerzita Karlova",
+		"replaces": "National College",
+		"uniqueTo": "Bohemia",
+		"cost": 325
+		"science": 5,
+		"culture": 2,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 60},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [40] per owned city"],
+		"requiredTech": "Philosophy"
+	}
+	{
+		"name": "Karlův most",
+		"replaces": "National Epic",
+		"cost": 225,
+		"culture": 3,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+30]% Great Person generation [in this city]", "Cost increases by [40] per owned city"],
+		"requiredTech": "Drama and Poetry"
+	},
+
 ]
