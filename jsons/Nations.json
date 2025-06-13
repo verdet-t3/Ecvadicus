@@ -3,7 +3,7 @@
 		"name": "Bohemia",
 		"leaderName": "Jiri Podebrad",
 		"adjective": ["Bohemian"],
-		"startBias": ["Avoid [Tundra]"],
+		"startBias": ["Avoid [Tundra], Avoid [Coast], Hill"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Jiri Podebrad",
 		
@@ -28,8 +28,8 @@
 		"afterPeace": "Peace is a virtue of civilization, war is its crime. Finally, sanity has visited you!",
 		"tradeRequest": "Don't worry: if you don't like this deal, we'll soften it up.",
 
-		"outerColor": [197,72,55],
-		"innerColor": [244,244,244],
+		"outerColor": [255, 255, 255],
+		"innerColor": [197,72,55],
 		"favoredReligion": "Christianity",
 		"unique": "Ideologists of the Reformation, The Pearl of Crowns",
 		"uniques": "[Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "[+1 Science] from every specialist [in all cities]", "[+3 Culture] from every specialist [in all cities]", "[+5 Science] in [Capital City]", "[+5 Gold] from each Trade Route",]
@@ -37,6 +37,6 @@
 			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Děčín","Ústí nad Labem","Teplice","Kladno","Most",
 			"České Budějovice","","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
 			"Tábor","Cheb","Trutnov","Písek","Šumperk","Sokolov"]
-		"spyNames": ["Petr", "Alexander", "Boleslav", "Jaroslav", "Jan", "Jiri", "Antonin", "Elsa", "Karl", "Franc", "Pavel", "Anastasia"]
+		"spyNames": ["Petr", "Boguslav", "Boleslav", "Jaroslav", "Jan", "Jiri", "Antonin", "Elsa", "Karl", "Franc", "Pavel", "Anastasia"]
 	}
 ]
