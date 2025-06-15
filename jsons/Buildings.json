@@ -43,5 +43,18 @@
 		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+30]% Great Person generation [in this city]", "Cost increases by [40] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
+	{
+		"name": "Škoda factory",
+		"replaces": "Factory",
+		"cost": 420,
+		"production": 6,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 4},
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
 
 ]
