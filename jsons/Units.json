@@ -40,7 +40,8 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","[Škoda T25] Ability"],
+		"uniques": ["Can move after attacking"],
+		"promotions": ["Quick Study", "[Škoda T25] Ability"],
 		"attackSound": "tankshot"
 	},
 ]
