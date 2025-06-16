@@ -1,35 +1,33 @@
 [
 	{
 		"name": "Taborite",
-		"unitType": "Sword",
+		"unitType": "Gunpowder"
 		"uniqueTo": "Bohemia",
-		"replaces": "Swordsman",
+		"replaces": "Musketman",
 		"movement": 3,
-		"strength": 19,
-		"cost": 100,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
+		"strength": 30,
+		"cost": 170,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"uniques": ["Can build [Fort] improvements on tiles"],
 		"promotions": ["Quick Study", "March"]
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "shot"
 	},
 	{
 		"name": "Wagenburg",
 		"unitType": "Siege",
-		"replaces": "Catapult",
+		"replaces": "Trebuchet",
 		"uniqueTo": "Bohemia",
 		"movement": 2,
 		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+75]% Strength <vs cities>, <vs [Military]> <when attacking>", "[+150]% Strenght <vs cities>, <vs [Military], <when defending>"],
-		"hurryCostModifier": 20,
-		"attackSound": "arrow"
+		"rangedStrength": 28,
+		"cost": 140,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+75]% Strength <vs [Military]> <when attacking>", "[+150]% Strenght <vs cities>, <vs [Military], <when defending>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Škoda T25",
