@@ -31,7 +31,7 @@
 		"culture": 2,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 60},
-		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [40] per owned city"],
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [40] per owned city", "Only available in <the [Capital city]>"],
 		"requiredTech": "Philosophy"
 	}
 	{
@@ -40,13 +40,13 @@
 		"cost": 225,
 		"culture": 3,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+30]% Great Person generation [in this city]", "Cost increases by [40] per owned city"],
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+30]% Great Person generation [in this city]", "Cost increases by [40] per owned city", "Only available in <the [Capital city]>"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
 		"name": "Škoda factory",
 		"replaces": "Factory",
-		"cost": 420,
+		"cost": 450,
 		"production": 6,
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 4},
