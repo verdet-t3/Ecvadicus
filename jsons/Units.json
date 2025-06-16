@@ -60,4 +60,18 @@
 		"promotions": ["Quick Study", "[Škoda T25] Ability"],
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "TVP T50/51",
+		"unitType": "Armored",
+		"uniqueTo": "Bohemia",
+		"replaces": "Modern Armor",
+		"movement": 7,
+		"strength": 70,
+		"cost": 600,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
 ]
