@@ -10,7 +10,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Fort] improvements on tiles","Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "March"]
 		"attackSound": "shot"
 	},
@@ -26,7 +26,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+75]% Strength <vs [Military]> <when attacking>", "[+150]% Strenght <vs cities>, <vs [Military], <when defending>"],
+		"uniques": ["[+75]% Strength <vs [Military]> <when attacking>", "[+150]% Strenght <vs cities>, <vs [Military], <when defending>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -72,6 +72,7 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"promotions": ["Quick Study", "[TVP T50/51] Ability"],
 		"attackSound": "tankshot"
 	},
 ]
