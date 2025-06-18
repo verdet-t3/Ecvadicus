@@ -20,7 +20,7 @@ BuildingIcons/Pražský hrad
   index: -1
 BuildingIcons/Továrna Škoda
   rotate: false
-  xy: 220, 4
+  xy: 424, 460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -55,14 +55,14 @@ UnitIcons/Škoda T25
   index: -1
 UnitIcons/Wagenburg
   rotate: false
-  xy: 328, 4
+  xy: 38, 455
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Taborite
   rotate: false
-  xy: 328, 4
+  xy: 271, 433
   size: 125, 150
   orig: 125, 150
   offset: 0, 0
