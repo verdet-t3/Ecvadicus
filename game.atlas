@@ -1,34 +1,97 @@
 
 game.png
-size: 512, 128
+size: 1024, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Breeders
+BuildingIcons/Karlův most
   rotate: false
   xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Holodeck
+BuildingIcons/Pražský hrad
   rotate: false
   xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Aliens
+BuildingIcons/Továrna Škoda
+  rotate: false
+  xy: 220, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Univerzita Karlova
+  rotate: false
+  xy: 220, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vřídlo
+  rotate: false
+  xy: 220, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Bohemia
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Phasers
+UnitIcons/Škoda T25
   rotate: false
   xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
+  size: 200, 125
+  orig: 200, 125
+  offset: 0, 0
+  index: -1
+UnitIcons/Wagenburg
+  rotate: false
+  xy: 328, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Taborite
+  rotate: false
+  xy: 328, 4
+  size: 125, 150
+  orig: 125, 150
+  offset: 0, 0
+  index: -1
+UnitIcons/LT vz.38
+  rotate: false
+  xy: 328, 4
+  size: 200, 104
+  orig: 200, 104
+  offset: 0, 0
+  index: -1
+UnitIcons/TVP T50-51
+  rotate: false
+  xy: 328, 4
+  size: 200, 100
+  orig: 200, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Škoda T25
+  rotate: false
+  xy: 4, 4
+  size: 200, 125
+  orig: 200, 125
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/TVP T50-51
+  rotate: false
+  xy: 4, 4
+  size: 200, 100
+  orig: 200, 100
   offset: 0, 0
   index: -1
