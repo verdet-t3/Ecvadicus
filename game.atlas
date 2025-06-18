@@ -1,19 +1,19 @@
 
 game.png
-size: 1024, 256
+size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Karlův most
   rotate: false
-  xy: 112, 4
+  xy: 365, 225
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Pražský hrad
   rotate: false
-  xy: 220, 4
+  xy: 134, 216
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -27,21 +27,21 @@ BuildingIcons/Továrna Škoda
   index: -1
 BuildingIcons/Univerzita Karlova
   rotate: false
-  xy: 220, 4
+  xy: 791, 228
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Vřídlo
   rotate: false
-  xy: 220, 4
+  xy: 580, 225
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Bohemia
   rotate: false
-  xy: 4, 4
+  xy: 35, 178
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
