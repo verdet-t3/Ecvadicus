@@ -48,7 +48,7 @@ NationIcons/Bohemia
   index: -1
 UnitIcons/Škoda T25
   rotate: false
-  xy: 328, 4
+  xy: 292, 601
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
@@ -69,28 +69,28 @@ UnitIcons/Taborite
   index: -1
 UnitIcons/LT vz.38
   rotate: false
-  xy: 328, 4
+  xy: 36, 636
   size: 200, 104
   orig: 200, 104
   offset: 0, 0
   index: -1
 UnitIcons/TVP T50-51
   rotate: false
-  xy: 328, 4
+  xy: 657, 401
   size: 200, 100
   orig: 200, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Škoda T25
   rotate: false
-  xy: 4, 4
+  xy: 292, 601
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 UnitPromotionIcons/TVP T50-51
   rotate: false
-  xy: 4, 4
+  xy: 657, 401
   size: 200, 100
   orig: 200, 100
   offset: 0, 0
