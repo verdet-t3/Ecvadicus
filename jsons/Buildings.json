@@ -50,7 +50,7 @@
 		"production": 6,
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 4},
-		"requiredBuilding": "Fabric",
+		"requiredBuilding": "Factory",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
