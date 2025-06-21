@@ -13,7 +13,7 @@ BuildingIcons/Karlův most
   index: -1
 BuildingIcons/Pražský hrad
   rotate: false
-  xy: 82, 131
+  xy: 102, 102
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -41,7 +41,7 @@ BuildingIcons/Vřídlo
   index: -1
 NationIcons/Bohemia
   rotate: false
-  xy: 22, 88
+  xy: 22, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -62,14 +62,14 @@ UnitIcons/Wagenburg
   index: -1
 UnitIcons/Taborite
   rotate: false
-  xy: 158, 256
+  xy: 208, 266
   size: 125, 150
   orig: 125, 150
   offset: 0, 0
   index: -1
 UnitIcons/LT vz.38
   rotate: false
-  xy: 22, 378
+  xy: 22, 398
   size: 200, 104
   orig: 200, 104
   offset: 0, 0
