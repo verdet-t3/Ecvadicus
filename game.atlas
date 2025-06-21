@@ -74,7 +74,7 @@ UnitIcons/LT vz.38
   orig: 200, 104
   offset: 0, 0
   index: -1
-UnitIcons/TVP T50-51
+UnitIcons/TVP T50/51
   rotate: false
   xy: 657, 401
   size: 200, 100
@@ -88,7 +88,7 @@ UnitPromotionIcons/Škoda T25
   orig: 200, 125
   offset: 0, 0
   index: -1
-UnitPromotionIcons/TVP T50-51
+UnitPromotionIcons/TVP T50/51
   rotate: false
   xy: 657, 401
   size: 200, 100
