@@ -1,10 +1,10 @@
 [
 {
 		"name": "75 mm Škoda A18 (s automatickým nabíjením)"
-		"uniques": ["[3] additional attacks per turn", "can not defending <if attacked before>"]
+		"uniques": ["[3] additional attacks per turn", "can not defending <if attacked earlier>"]
 	},
 {
 		"name": "100 mm AK1 (s automatickým nabíjením)",
-		"uniques": ["[4] additional attacks per turn", "can not defending <if attacked before>", "removes [75 mm Škoda A18 (s automatickým nabíjením)"]
+		"uniques": ["[4] additional attacks per turn", "can not defending <if attacked earlier>", "removes [75 mm Škoda A18 (s automatickým nabíjením)]"]
 	}
 ]
