@@ -41,7 +41,7 @@ BuildingIcons/Vřídlo
   index: -1
 NationIcons/Bohemia
   rotate: false
-  xy: 22, 108
+  xy: 22, 88
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
