@@ -32,7 +32,7 @@
 		"innerColor": [197,72,55],
 		"favoredReligion": "Christianity",
 		"unique": "Ideologists of the Reformation, The Pearl of Crowns",
-		"uniques": "[Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "[+1 Science] from every specialist [in all cities]", "[+3 Culture] from every specialist [in all cities]", "[+5 Science] in [Capital City]", "[+5 Gold] from each Trade Route"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "[+1 Science] from every specialist [in all cities]", "[+3 Culture] from every specialist [in all cities]", "[+5 Science] in [Capital City]", "[+5 Gold] from each Trade Route"],
 		"cities": ["Praha","Brno","","Ostrava","Plzen","Liberec","Olomouc","Pardubice","Karlovy Vary",
 			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Děčín","Ústí nad Labem","Teplice","Kladno","Most",
 			"České Budějovice","","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
