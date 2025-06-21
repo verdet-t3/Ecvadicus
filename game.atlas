@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Karlův most
   rotate: false
-  xy: 218, 135
+  xy: 356, 106
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
