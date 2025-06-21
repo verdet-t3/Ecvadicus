@@ -13,7 +13,7 @@ BuildingIcons/Karlův most
   index: -1
 BuildingIcons/Pražský hrad
   rotate: false
-  xy: 134, 216
+  xy: 132, 215
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -41,7 +41,7 @@ BuildingIcons/Vřídlo
   index: -1
 NationIcons/Bohemia
   rotate: false
-  xy: 35, 178
+  xy: 30, 181
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
