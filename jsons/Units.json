@@ -56,7 +56,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"uniques": ["Double speed on ocean tiles", 
+		"uniques": ["Double speed on [Ocean] tiles", 
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence", 
 			"Uncapturable"],
 		"hurryCostModifier": 30
