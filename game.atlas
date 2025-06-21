@@ -20,7 +20,7 @@ BuildingIcons/Pražský hrad
   index: -1
 BuildingIcons/Továrna Škoda
   rotate: false
-  xy: 424, 460
+  xy: 419, 456
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
