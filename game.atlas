@@ -6,91 +6,91 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Karlův most
   rotate: false
-  xy: 365, 225
+  xy: 218, 135
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Pražský hrad
   rotate: false
-  xy: 132, 215
+  xy: 82, 131
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Továrna Škoda
   rotate: false
-  xy: 419, 456
+  xy: 252, 276
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Karlova universita
   rotate: false
-  xy: 791, 228
+  xy: 474, 136
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Vřídlo
   rotate: false
-  xy: 580, 225
+  xy: 346, 136
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Bohemia
   rotate: false
-  xy: 30, 181
+  xy: 22, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Škoda T25
   rotate: false
-  xy: 292, 601
+  xy: 172, 362
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 UnitIcons/Wagenburg
   rotate: false
-  xy: 38, 455
+  xy: 22, 271
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Taborite
   rotate: false
-  xy: 271, 433
+  xy: 158, 256
   size: 125, 150
   orig: 125, 150
   offset: 0, 0
   index: -1
 UnitIcons/LT vz.38
   rotate: false
-  xy: 36, 636
+  xy: 22, 378
   size: 200, 104
   orig: 200, 104
   offset: 0, 0
   index: -1
 UnitIcons/TVP T50/51
   rotate: false
-  xy: 657, 401
+  xy: 390, 242
   size: 200, 100
   orig: 200, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Škoda T25
   rotate: false
-  xy: 292, 601
+  xy: 172, 362
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 UnitPromotionIcons/TVP T50/51
   rotate: false
-  xy: 657, 401
+  xy: 390, 242
   size: 200, 100
   orig: 200, 100
   offset: 0, 0
