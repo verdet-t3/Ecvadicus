@@ -134,8 +134,8 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
-		"promotions": ["Quick Study", "[+25]% Strength <vs [Military] units>, <when attacking>", "[Škoda T25] Ability"],
+		"uniques": ["Can move after attacking","[+25]% Strength <vs [Military] units>, <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Quick Study", "[Škoda T25] Ability"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
