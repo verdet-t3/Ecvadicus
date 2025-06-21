@@ -27,7 +27,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+75]% Strength <vs [Military]>, <when attacking>", "[+150]% Strenght <vs cities>, <vs [Military]>, <when defending>","Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <vs [Military] units>, <when attacking>", "[+150]% Strength <vs cities>, <vs [Military] units>, <when defending>","Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -63,7 +63,7 @@
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 20,
-		"cost": 100,
+		"cost": 120,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Scientific Theory",
 		"upgradesTo": "Sailing corvette",
@@ -135,7 +135,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
-		"promotions": ["Quick Study", "[Škoda T25] Ability"],
+		"promotions": ["Quick Study", "[+25]% Strength <vs [Military] units>, <when attacking>", "[Škoda T25] Ability"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
@@ -150,7 +150,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "[+25]% Strength <vs [Military] units>, <when attacking>", "Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "[TVP T50/51] Ability"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
