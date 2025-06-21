@@ -69,7 +69,7 @@
 		"cost": 120,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Scientific Theory",
-		"upgradesTo": "Sailing corvette",
+		"upgradesTo": "Sailing Сorvette",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -81,7 +81,7 @@
 		"cost": 150,
 		"requiredTech": "Scientific Theory",
 		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Steam corvette",
+		"upgradesTo": "Steam Сorvette",
 		"hurryCostModifier": 30,
 		"attackSound": "shipCannonVolley"
 	},
@@ -93,7 +93,7 @@
 		"cost": 200,
 		"requiredTech": "Steam Power",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Modern corvette",
+		"upgradesTo": "Modern Сorvette",
 		"hurryCostModifier": 35,
 		"attackSound": "shipguns"
 	},
