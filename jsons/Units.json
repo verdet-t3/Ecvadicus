@@ -135,7 +135,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","[+25]% Strength <vs [Military] units>, <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Quick Study", "[Škoda T25] Ability"],
+		"promotions": ["Quick Study", "75 mm Škoda A18 (s automatickým nabíjením)"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
@@ -151,7 +151,7 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "[+25]% Strength <vs [Military] units>, <when attacking>", "Never appears as a Barbarian unit"],
-		"promotions": ["Quick Study", "[TVP T50/51] Ability"],
+		"promotions": ["Quick Study", "100 mm AK1 (s automatickým nabíjením)"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
