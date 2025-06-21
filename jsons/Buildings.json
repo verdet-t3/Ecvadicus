@@ -23,7 +23,7 @@
 		"requiredTech": "Drama and Poetry"
 	}
 	{
-		"name": "Univerzita Karlova",
+		"name": "Karlova universita",
 		"replaces": "National College",
 		"uniqueTo": "Bohemia",
 		"cost": 350,
