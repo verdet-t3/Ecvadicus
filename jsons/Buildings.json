@@ -7,19 +7,19 @@
 		"science": 6,
 		"gold": 3,
 		"culture": 2,
-		"cityStrength": 4,
+		"cityStrength": 7,
 		"isNationalWonder": true,
 		"cost": 0,
-		"uniques": ["Indicates the capital city","[+1 Culture] <after discovering [Chivalry]>"]
+		"uniques": ["Indicates the capital city","[+2 Culture] <after discovering [Chivalry]>"]
 	},
 	{
 		"name": "Vřídlo",
 		"replaces": "Garden",
 		"uniqueTo": "Bohemia",
-		"cost": 150,
+		"cost": 250,
 		"hurryCostModifier": 170,
 		"happiness": 4,
-		"uniques": ["[15]% Food is carried over after population increases [in this city]", "[20]% Great Person generation [in this city]"],
+		"uniques": ["[15]% Food is carried over after population increases [in this city]", "[+20]% Great Person generation [in this city]"],
 		"requiredTech": "Drama and Poetry"
 	}
 	{
@@ -48,13 +48,14 @@
 	},
 	{
 		"name": "Továrna Škoda",
+		"uniqueTo": "Bohemia",
 		"cost": 450,
 		"production": 6,
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 4},
 		"requiredBuilding": "Factory",
 		"maintenance": 2,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 200,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
 	},
