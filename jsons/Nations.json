@@ -10,10 +10,10 @@
 		"startIntroPart1": "George of Podebrad (also known as Jiří Podebrad) was the sixteenth King of Bohemia, who ruled in 1458–1471. He was a leader of the Hussites, but moderate and tolerant toward the Catholic faith. His rule was marked by great efforts to preserve peace and tolerance between the Hussites and Catholics in the religiously divided Crown of Bohemia.",
 		"startIntroPart2": "Nowadays, in period of the so-called Czech National Revival, he began to be praised as the best Czech national monarch (in terms of ethnic awareness), a great diplomat and a courageous fighter against the domination of the Catholic Church and other civilizations that dream of getting Prague into their possession. The Czech people rely on him and on you, and their fate is in your hands.",
 		
-		"declaringWar": "It's time to end the thorn in the map. That is, with you",
-		"attacked": "One of your actions speaks of you as an arrogant fool.",
-		"defeated": "Instead of trying the cake, you decided to snack on the whole city. The cake is delicious, by the way. If you know what I mean.",
-		"introduction": "Greetings. I'm Jiri Podebrad. But my name is also Georg. I hope we will find a common language.",
+		"declaringWar": "It's time to put an end to the blemish on this map. What blemish? Your failed state.",
+		"attacked": "Your actions alone make you look like an arrogant fool.",
+		"defeated": "Instead of trying the cake, you decided to snack on the whole city. Pity. The cake is delicious, by the way. If you know what I mean.",
+		"introduction": "Greetings. I'm Jiří Podebrad. But my name is also Georg. I hope we will find a common language.",
 		
 		"neutralHello": "My people have spoken highly of you.",
 		"neutralLetsHearIt": ["Go on.","I'm all ears.","You may begin."],
@@ -26,17 +26,17 @@
 		"hateYes": ["So be it, I agree.","That is good enough.","Very well..."],
 		
 		"afterPeace": "Peace is a virtue of civilization, war is its crime. Finally, sanity has visited you!",
-		"tradeRequest": "Don't worry: if you don't like this deal, we'll soften it up.",
+		"tradeRequest": "Don't worry, if you don't like this deal. We can soften the terms of the deal.",
 
-		"outerColor": [197, 72, 55],
+		"outerColor": [186, 29, 28],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
-		"unique": "Ideologists of the Reformation, The Pearl of Crowns",
+		"unique": "Pioneers of the Reformation",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "[+1 Science] from every specialist [in all cities]", "[+1 Culture] from every specialist [in all cities]", "[+3 Gold] from each Trade Route"],
 		"cities": ["Praha","Brno","","Ostrava","Plzen","Liberec","Olomouc","Pardubice","Karlovy Vary",
 			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Děčín","Ústí nad Labem","Teplice","Kladno","Most",
 			"České Budějovice","","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
 			"Tábor","Cheb","Trutnov","Písek","Šumperk","Sokolov","Krušovice", "Český Krumlov"]
-		"spyNames": ["Václav", "Karolína", "Boleslav", "Jaroslav", "Jan", "Jiri", "Lukáš", "Tereza", "Karl", "Vojtěch", "Pavel", "Arina"]
+		"spyNames": ["Václav", "Karolína", "Boleslav", "Jaroslav", "Jan", "Jiří", "Lukáš", "Tereza", "Karl", "Vojtěch", "Pavel", "Arina"]
 	}
 ]
