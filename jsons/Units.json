@@ -6,12 +6,13 @@
 		"replaces": "Musketman",
 		"movement": 3,
 		"strength": 30,
-		"cost": 170,
+		"cost": 190,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Can build [Fort] improvements on tiles","Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "March"]
+		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -21,12 +22,13 @@
 		"uniqueTo": "Bohemia",
 		"movement": 2,
 		"strength": 17,
-		"rangedStrength": 28,
-		"cost": 140,
+		"rangedStrength": 23,
+		"cost": 155,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["[+75]% Strength <vs [Military]>, <when attacking>", "[+150]% Strenght <vs cities>, <vs [Military]>, <when defending>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
@@ -118,6 +120,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study"],
+		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
 	{
@@ -133,6 +136,7 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "[Škoda T25] Ability"],
+		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
 	{
@@ -148,6 +152,7 @@
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "[TVP T50/51] Ability"],
+		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
 ]
