@@ -27,7 +27,10 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+75]% Strength <vs [Military] units>, <when attacking>", "[+150]% Strength <vs cities>, <vs [Military] units>, <when defending>","Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <vs [Military] units> <when attacking>",
+			"[+150]% Strength <vs cities> <when defending>",
+			"[+150]% Strength <vs [Military] units> <when defending>",
+			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
