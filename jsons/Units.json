@@ -49,7 +49,7 @@
 	},
 	{
 		"name": "De Nederlandse Fluit",
-		"unitType": "Civilian",
+		"unitType": "Civilian Water",
 		"uniqueTo": "The Netherlands",
 		"movement": 4,
 		"cost": 120,
@@ -74,7 +74,7 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Sailing corvette",
+		"name": "Sailing Сorvette",
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 26,
@@ -86,7 +86,7 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Steam corvette",
+		"name": "Steam Сorvette",
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 35,
@@ -98,7 +98,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Modern corvette",
+		"name": "Modern Сorvette",
 		"unitType": "Melee Water",
 		"movement": 10,
 		"strength": 55,
@@ -121,7 +121,9 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Škoda T25",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
@@ -137,7 +139,10 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","[+25]% Strength <vs [Military] units>, <when attacking>","Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking",
+		"[+25]% Strength <vs [Military] units> <when attacking>",
+		"[-200]% Strength <vs [Military] units> <when defending>",
+		"Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "75 mm Škoda A18 (s automatickým nabíjením)"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
@@ -153,7 +158,10 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "[+25]% Strength <vs [Military] units>, <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking",
+		"[+25]% Strength <vs [Military] units> <when attacking>",
+		"[-200]% Strength <vs [Military] units> <when defending>",
+		"Never appears as a Barbarian unit"],
 		"promotions": ["Quick Study", "100 mm AK1 (s automatickým nabíjením)"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
