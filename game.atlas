@@ -95,3 +95,17 @@ UnitPromotionIcons/TVP T50/51
   orig: 200, 100
   offset: 0, 0
   index: -1
+UnitIcons/Brig
+  rotate: false
+  xy: 294, 383
+  size: 200, 141
+  orig: 200, 141
+  offset: 0, 0
+  index: -1
+UnitIcons/Sailing Corvette
+  rotate: false
+  xy: 426, 376
+  size: 200, 145
+  orig: 200, 145
+  offset: 0, 0
+  index: -1
