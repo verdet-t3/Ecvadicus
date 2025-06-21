@@ -3,7 +3,7 @@
 		"name": "Bohemia",
 		"leaderName": "Jiri Podebrad",
 		"adjective": ["Bohemian"],
-		"startBias": ["Avoid [Coast], Hill"],
+		"startBias": ["Avoid [Coast]", "Avoid [Tundra]", "Hill"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Jiri Podebrad",
 		
