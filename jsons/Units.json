@@ -98,9 +98,9 @@
 		"movement": 10,
 		"strength": 55,
 		"cost": 200,
-		"requiredTech": "Steam Power",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Modern corvette",
+		"requiredTech": "Combustion",
+		"obsoleteTech": "Robotics",
+		"upgradesTo": "Missile Cruiser",
 		"hurryCostModifier": 35,
 		"attackSound": "shipguns"
 	},
