@@ -4,7 +4,7 @@
 		"replaces": "Palace",
 		"uniqueTo": "Bohemia",
 		"production": 3,
-		"science": 3,
+		"science": 6,
 		"gold": 3,
 		"culture": 2,
 		"cityStrength": 4,
@@ -29,9 +29,10 @@
 		"cost": 350,
 		"science": 5,
 		"culture": 2,
+		"requiredBuilding": "Pražský hrad",
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 60},
-		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [40] per owned city", "Only available <in the [Capital city]>"],
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [40] per owned city"],
 		"requiredTech": "Philosophy"
 	}
 	{
@@ -40,8 +41,9 @@
 		"uniqueTo": "Bohemia",
 		"cost": 270,
 		"culture": 4,
+		"requiredBuilding": "Pražský hrad",
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[30]% Great Person generation [in this city]", "Cost increases by [40] per owned city", "Only available <in the [Capital city]>"],
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[30]% Great Person generation [in this city]", "Cost increases by [40] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
