@@ -181,4 +181,46 @@
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
+	{
+        	"name": "Artillery",
+        	"unitType": "Siege",
+        	"movement": 2,
+        	"strength": 21,
+        	"rangedStrength": 28,
+        	"range": 3,
+        	"cost": 320,
+        	"requiredTech": "Dynamite",
+        	"upgradesTo": "Rocket Artillery",
+        	"obsoleteTech": "Combustion",
+        	"uniques": [
+            		"[+200]% Strength <vs cities> <when attacking>",
+            		"No defensive terrain bonus",
+            		"Must set up to ranged attack",
+           		"[-1] Sight",
+            		"Never appears as a Barbarian unit"
+        		],
+        	"promotions": ["Indirect Fire"],
+        	"attackSound": "artillery"
+	},
+	{
+		"name": "Self-propelled artillery",
+		"unitType": "Siege",
+        	"movement": 3,
+        	"strength": 34,
+        	"rangedStrength": 40,
+        	"range": 3,
+        	"cost": 380,
+        	"requiredTech": "Combustion",
+        	"upgradesTo": "Rocket Artillery",
+        	"obsoleteTech": "Rocketry",
+        	"uniques": [
+            		"[+200]% Strength <vs cities> <when attacking>",
+            		"No defensive terrain bonus",
+            		"Must set up to ranged attack",
+           		"[-1] Sight",
+            		"Never appears as a Barbarian unit"
+        		],
+        	"promotions": ["Indirect Fire"],
+        	"attackSound": "artillery"
+	}
 ]
