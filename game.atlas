@@ -6,104 +6,109 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Karlův most
   rotate: false
-  xy: 356, 86
-  size: 200, 200
-  orig: 200, 200
+  xy: 362, 33
+  size: 200, 194
+  orig: 200, 194
   offset: 0, 0
   index: -1
 BuildingIcons/Pražský hrad
   rotate: false
-  xy: 100, 82
-  size: 200, 200
-  orig: 200, 200
+  xy: 137, 41
+  size: 200, 180
+  orig: 200, 180
   offset: 0, 0
   index: -1
 BuildingIcons/Továrna Škoda
   rotate: false
-  xy: 252, 276
+  xy: 416, 262
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Karlova universita
   rotate: false
-  xy: 474, 136
+  xy: 792, 28
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Vřídlo
   rotate: false
-  xy: 346, 136
+  xy: 582, 29
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Bohemia
   rotate: false
-  xy: 22, 72
+  xy: 22, 76
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Škoda T25
   rotate: false
-  xy: 172, 362
-  size: 200, 125
-  orig: 200, 125
+  xy: 290, 528
+  size: 200, 145
+  orig: 175, 83
   offset: 0, 0
   index: -1
 UnitIcons/Wagenburg
   rotate: false
-  xy: 22, 271
-  size: 200, 200
-  orig: 200, 200
+  xy: 32, 270
+  size: 184, 184
+  orig: 184, 184
   offset: 0, 0
   index: -1
 UnitIcons/Taborite
   rotate: false
-  xy: 228, 266
+  xy: 272, 305
   size: 125, 150
-  orig: 125, 150
+  orig: 76, 117
   offset: 0, 0
   index: -1
 UnitIcons/LT vz.38
   rotate: false
-  xy: 22, 398
-  size: 200, 104
-  orig: 200, 104
+  xy: 35, 530
+  size: 200, 106
+  orig: 200, 106
   offset: 0, 0
   index: -1
 UnitIcons/TVP T50/51
   rotate: false
-  xy: 390, 242
-  size: 200, 100
-  orig: 200, 100
+  xy: 651, 332
+  size: 200, 71
+  orig: 200, 71
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Škoda T25
   rotate: false
-  xy: 172, 362
+  xy: 290, 528
   size: 200, 125
   orig: 200, 125
   offset: 0, 0
   index: -1
 UnitPromotionIcons/TVP T50/51
   rotate: false
-  xy: 390, 242
+  xy: 651, 332
   size: 200, 100
   orig: 200, 100
   offset: 0, 0
   index: -1
 UnitIcons/Brig
   rotate: false
-  xy: 294, 383
-  size: 200, 141
-  orig: 200, 141
+  xy: 495, 488
+  size: 200, 153
+  orig: 200, 153
   offset: 0, 0
   index: -1
 UnitIcons/Sailing Corvette
   rotate: false
+  xy: 717, 492
+  size: 200, 138
+  orig: 200, 138
+  offset: 0, 0
+  index: -1
   xy: 426, 376
   size: 200, 145
   orig: 200, 145
