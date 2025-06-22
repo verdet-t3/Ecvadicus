@@ -190,7 +190,7 @@
         	"range": 3,
         	"cost": 320,
         	"requiredTech": "Dynamite",
-        	"upgradesTo": "Rocket Artillery",
+        	"upgradesTo": "Self-propelled Artillery",
         	"obsoleteTech": "Combustion",
         	"uniques": [
             		"[+200]% Strength <vs cities> <when attacking>",
@@ -203,7 +203,7 @@
         	"attackSound": "artillery"
 	},
 	{
-		"name": "Self-propelled artillery",
+		"name": "Self-propelled Artillery",
 		"unitType": "Siege",
         	"movement": 3,
         	"strength": 34,
