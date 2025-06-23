@@ -30,20 +30,21 @@
 		"uniques": ["[+75]% Strength <vs [Military] units> <when attacking>",
 			"[+150]% Strength <vs cities> <when defending>",
 			"[+150]% Strength <vs [Military] units> <when defending>",
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit"
+			],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
 		"name": "Galleon",
 		"unitType": "Melee Water",
-		"movement": 3,
+		"movement": 4,
 		"strength": 32,
-		"cost": 175,
+		"cost": 180,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"uniques": ["[+2] Sight","Can move after attacking"],
+		"uniques": ["[+2] Sight", "Can move after attacking"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -58,7 +59,9 @@
 		"obsoleteTech": "Steam Power",
 		"uniques": ["Double movement in [Ocean]", 
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence", 
-			"Uncapturable"],
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+			],
 		"hurryCostModifier": 30
 	},
 	{
@@ -86,7 +89,8 @@
 		"uniques": ["Can move after attacking", 
 			"[+33]% Strength <vs [Melee Water]> <when attacking>",
 			"[+33]% Strength <vs [Ranged Water]> <when attacking>",
-			"[+100]% Strength <vs [Embarked]> <when attacking>"],
+			"[+100]% Strength <vs [Embarked]> <when attacking>"
+			],
 		"attackSound": "shipCannonVolley"
 	},
 	{
@@ -102,7 +106,9 @@
 		"uniques": ["Can move after attacking", 
 			"[+33]% Strength <vs [Melee Water]> <when attacking>",
 			"[+33]% Strength <vs [Ranged Water]> <when attacking>",
-			"[+100]% Strength <vs [Embarked]> <when attacking>"],
+			"[+100]% Strength <vs [Embarked]> <when attacking>",
+			"Never appears as a Barbarian unit"
+			],
 		"attackSound": "shipguns"
 	},
 	{
@@ -121,7 +127,7 @@
 			"[+100]% Strength <vs [Embarked]> <when attacking>",
 			"Can see invisible [Submarine] units",
 			"[40]% chance to intercept air attacks"
-		],
+			],
 		"attackSound": "shipguns"
 	},
 	{
@@ -155,9 +161,10 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking",
-		"[+25]% Strength <vs [Military] units> <when attacking>",
-		"[-200]% Strength <vs [Military] units> <when defending>",
-		"Never appears as a Barbarian unit"],
+			"[+25]% Strength <vs [Military] units> <when attacking>",
+			"[-200]% Strength <vs [Military] units> <when defending>",
+			"Never appears as a Barbarian unit"
+			],
 		"promotions": ["Quick Study", "75 mm Škoda A18 (s automatickým nabíjením)"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
@@ -174,9 +181,10 @@
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Can move after attacking",
-		"[+25]% Strength <vs [Military] units> <when attacking>",
-		"[-200]% Strength <vs [Military] units> <when defending>",
-		"Never appears as a Barbarian unit"],
+			"[+25]% Strength <vs [Military] units> <when attacking>",
+			"[-200]% Strength <vs [Military] units> <when defending>",
+			"Never appears as a Barbarian unit"
+			],
 		"promotions": ["Quick Study", "100 mm AK1 (s automatickým nabíjením)"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
@@ -222,5 +230,43 @@
         		],
         	"promotions": ["Indirect Fire"],
         	"attackSound": "artillery"
-	}
+	},
+	{
+        	"name": "Missile Cruiser",
+        	"unitType": "Ranged Water",
+        	"movement": 7,
+        	"strength": 80,
+        	"rangedStrength": 100,
+        	"range": 3,
+        	"cost": 510,
+        	"requiredTech": "Robotics",
+        	"requiredResource": "Aluminum",
+        	"uniques": [
+            		"Can carry [3] [Missile] units",
+            		"Never appears as a Barbarian unit"
+        		],
+        	"promotions": ["Indirect Fire"],
+        	"attackSound": "shipguns"
+    	},
+	{
+		"name": "Korvett typ Visby",
+		"unitType": "Melee Water",
+		"uniqueTo": "Sweden",
+		"movement": 8,
+		"strength": 85,
+		"cost": 720,
+		"requiredTech": "Stealth",
+		"hurryCostModifier": 35,
+		"uniques": ["Can move after attacking", 
+			"[+33]% Strength <vs [Melee Water]> <when attacking>",
+			"[+33]% Strength <vs [Ranged Water]> <when attacking>",
+			"[+100]% Strength <vs [Embarked]> <when attacking>",
+			"Can see invisible [Submarine] units",
+			"[50]% chance to intercept air attacks",
+			"Can carry [2] [Missile] units",
+			"Can carry [1] [Helicopter] units",
+            		"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
+	},
 ]
