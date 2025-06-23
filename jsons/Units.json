@@ -288,5 +288,21 @@
 			],
         	"hurryCostModifier": 20,
         	"attackSound": "shipCannonVolley"
-    },
+    	},
+	{
+		"name": "Bosgeuzen",
+		"unitType": "Gunpowder"
+		"uniqueTo": "The Netherlands",
+		"replaces": "Musketman",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Can build [Polder] improvements on tiles","Never appears as a Barbarian unit"],
+		"promotions": ["Quick Study"]
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
 ]
