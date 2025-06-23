@@ -100,9 +100,9 @@
 		"upgradesTo": "Modern Сorvette",
 		"hurryCostModifier": 35,
 		"uniques": ["Can move after attacking", 
-			"[+33]% Strength <vs [Melee Water]>",
-			"[+33]% Strength <vs [Ranged Water]>",
-			"[+100]% Strength <vs [Embarked]>"],
+			"[+33]% Strength <vs [Melee Water]> <when attacking>",
+			"[+33]% Strength <vs [Ranged Water]> <when attacking>",
+			"[+100]% Strength <vs [Embarked]> <when attacking>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -116,9 +116,9 @@
 		"upgradesTo": "Missile Cruiser",
 		"hurryCostModifier": 25,
 		"uniques": ["Can move after attacking", 
-			"[+33]% Strength <vs [Melee Water]>",
-			"[+33]% Strength <vs [Ranged Water]>",
-			"[+100]% Strength <vs [Embarked]>",
+			"[+33]% Strength <vs [Melee Water]> <when attacking>",
+			"[+33]% Strength <vs [Ranged Water]> <when attacking>",
+			"[+100]% Strength <vs [Embarked]> <when attacking>",
 			"Can see invisible [Submarine] units",
 			"[40]% chance to intercept air attacks"
 		],
