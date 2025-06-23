@@ -282,8 +282,8 @@
         	"requiredTech": "Navigation",
         	"obsoleteTech": "Electronics",
         	"upgradesTo": "Battleship",
-        	"promotions": ["Extra Sight",
-			"Never appears as a Barbarian unit",
+        	"promotions": ["Extra Sight"],
+		"uniques": ["Never appears as a Barbarian unit",
 			"Can move after attacking"
 			],
         	"hurryCostModifier": 20,
