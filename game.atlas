@@ -102,10 +102,3 @@ UnitIcons/Brig
   orig: 200, 153
   offset: 0, 0
   index: -1
-UnitIcons/Sailing Corvette
-  rotate: false
-  xy: 717, 492
-  size: 200, 138
-  orig: 200, 138
-  offset: 0, 0
-  index: -1
