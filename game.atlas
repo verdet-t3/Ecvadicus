@@ -48,9 +48,9 @@ NationIcons/Bohemia
   index: -1
 UnitIcons/Škoda T25
   rotate: false
-  xy: 289, 537
-  size: 175, 83
-  orig: 175, 83
+  xy: 273, 496
+  size: 188, 188
+  orig: 188, 188
   offset: 0, 0
   index: -1
 UnitIcons/Wagenburg
