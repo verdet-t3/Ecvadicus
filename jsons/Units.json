@@ -269,4 +269,24 @@
 		],
 		"attackSound": "shipguns"
 	},
+	{
+        	"name": "Man-o'-war",
+        	"unitType": "Ranged Water",
+        	"replaces": "Frigate",
+        	"uniqueTo": "England",
+        	"movement": 5,
+        	"strength": 35,
+        	"rangedStrength": 35,
+        	"cost": 225,
+        	"requiredResource": "Iron",
+        	"requiredTech": "Navigation",
+        	"obsoleteTech": "Electronics",
+        	"upgradesTo": "Battleship",
+        	"promotions": ["Extra Sight",
+			"Never appears as a Barbarian unit",
+			"Can move after attacking"
+			],
+        	"hurryCostModifier": 20,
+        	"attackSound": "shipCannonVolley"
+    },
 ]
