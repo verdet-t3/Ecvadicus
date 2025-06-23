@@ -305,4 +305,24 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
+	{
+		"name": "Mk.VII Tetrarch",
+		"unitType": "Paratrooping",
+		"uniqueTo": "England",
+		"movement": 6,
+		"strength": 50,
+		"cost": 500,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus",
+			"May Paradrop up to [9] tiles from inside friendly territory",
+            		"No movement cost to pillage",
+            		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 40,
+		"attackSound": "tankshot"
+	},
 ]
