@@ -76,9 +76,9 @@ UnitIcons/LT vz.38
   index: -1
 UnitIcons/TVP T50/51
   rotate: false
-  xy: 693, 329
+  xy: 691, 262
   size: 200, 200
-  orig: 200, 71
+  orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Škoda T25
