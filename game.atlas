@@ -118,9 +118,9 @@ UnitIcons/Steam Сorvette
   index: -1
 UnitIcons/Modern Сorvette
   rotate: false
-  xy: 277, 707
-  size: 193, 75
-  orig: 193, 75
+  xy: 279, 673
+  size: 188, 157
+  orig: 188, 157
   offset: 0, 0
   index: -1
 UnitIcons/Galleon
@@ -132,15 +132,15 @@ UnitIcons/Galleon
   index: -1
 UnitIcons/De Nederlandse Fluit
   rotate: false
-  xy: 507, 568
+  xy: 507, 658
   size: 200, 173
   orig: 200, 173
   offset: 0, 0
   index: -1
 UnitIcons/Korvett typ Visby
   rotate: false
-  xy: 40, 871
-  size: 198, 64
-  orig: 198, 64
+  xy: 40, 814
+  size: 198, 200
+  orig: 198, 200
   offset: 0, 0
   index: -1
