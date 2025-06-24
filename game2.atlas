@@ -4,9 +4,16 @@ size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-UnitPromotionIcons/Karlův most
+UnitPromotionIcons/100 mm AK1 (s automatickým nabíjením)
   rotate: false
-  xy: 362, 33
+  xy: 32, 15
+  size: 200, 194
+  orig: 200, 194
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/75 mm Škoda A18 (s automatickým nabíjením)
+  rotate: false
+  xy: 255, 15
   size: 200, 194
   orig: 200, 194
   offset: 0, 0
