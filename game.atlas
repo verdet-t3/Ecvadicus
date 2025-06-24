@@ -144,3 +144,17 @@ UnitIcons/Korvett typ Visby
   orig: 198, 200
   offset: 0, 0
   index: -1
+UnitIcons/Self-propelled Artillery
+  rotate: false
+  xy: 480, 839
+  size: 200, 131
+  orig: 200, 131
+  offset: 0, 0
+  index: -1
+UnitIcons/Mk.VII Tetrarch
+  rotate: false
+  xy: 272, 825
+  size: 200, 162
+  orig: 200, 162
+  offset: 0, 0
+  index: -1
