@@ -146,15 +146,22 @@ UnitIcons/Korvett typ Visby
   index: -1
 UnitIcons/Self-propelled Artillery
   rotate: false
-  xy: 480, 839
-  size: 200, 131
-  orig: 200, 131
+  xy: 499, 854
+  size: 200, 170
+  orig: 200, 170
   offset: 0, 0
   index: -1
 UnitIcons/Mk.VII Tetrarch
   rotate: false
-  xy: 272, 825
-  size: 200, 162
-  orig: 200, 162
+  xy: 271, 809
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Man-o'-war
+  rotate: false
+  xy: 732, 848
+  size: 200, 176
+  orig: 200, 176
+  offset: 0, 0
+  index: -1 
