@@ -46,6 +46,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Flame",
+        "movementType": "Land"
+    },
+    {
         "name": "Civilian Water",
         "movementType": "Water"
     },
