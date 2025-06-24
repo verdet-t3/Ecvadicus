@@ -325,4 +325,24 @@
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "Schnau",
+		"unitType": "Melee Water",
+		"replaces": "Brig",
+        	"uniqueTo": "Germany",
+		"movement": 6,
+		"strength": 22,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Sailing Сorvette",
+		"hurryCostModifier": 30,
+		"uniques": ["Can move after attacking", 
+			"[+66]% Strength <vs [Melee Water]> <when attacking>",
+			"[+66]% Strength <vs [Ranged Water]> <when attacking>",
+			"[+100]% Strength <vs [Embarked]> <when attacking>"
+			],
+		"attackSound": "shipCannonVolley"
+	},
+	
 ]
