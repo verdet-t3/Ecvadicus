@@ -1,2 +1,13 @@
 
-game2
+game2.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitPromotionIcons/Karlův most
+  rotate: false
+  xy: 362, 33
+  size: 200, 194
+  orig: 200, 194
+  offset: 0, 0
+  index: -1
