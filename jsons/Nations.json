@@ -33,7 +33,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pioneers of the Reformation",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "[+1 Science] from every specialist [in all cities]", "[+1 Culture] from every specialist [in all cities]", "[+3 Gold] from each Trade Route"],
-		"cities": ["Praha","Brno","","Ostrava","Plzen","Liberec","Olomouc","Pardubice","Karlovy Vary",
+		"cities": ["Praha","Brno","Ostrava","Plzen","Liberec","Olomouc","Pardubice","Karlovy Vary",
 			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Děčín","Ústí nad Labem","Teplice","Kladno","Most",
 			"České Budějovice","","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
 			"Tábor","Cheb","Trutnov","Písek","Šumperk","Sokolov","Krušovice", "Český Krumlov"]
