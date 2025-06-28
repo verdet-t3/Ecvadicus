@@ -72,21 +72,21 @@
         	"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
         	"uniqueName": "Manifest Destiny",
-        "uniques": [
-            "[+1] Sight <for [{Military} {Land}] units>",
-            "[-50]% Gold cost of acquiring tiles [in all cities]",
-	    "Can transfer the Lend-Lease <after discovering the [Replaceable Parts]> to countries with which relations are [>30]",
-        ],
-        "cities": [
-            "Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-            "Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas",
-            "Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh","Oakland",
-            "Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane",
-            "Jacksonville","Savannah","Charleston","San Antonio","Omaha","Honolulu","Anchorage","Sacramento","Salt Lake City","Reno",
-            "Boise","Milwaukee","Santa Cruz","Monterey","Santa Monica","Little Rock","Columbus","Le Bam"
-        ],
-        "spyNames": [
-            "Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
+       	 	"uniques": [
+            		"[+1] Sight <for [{Military} {Land}] units>",
+            		"[-50]% Gold cost of acquiring tiles [in all cities]",
+	    		"Can transfer the Lend-Lease <after discovering the [Replaceable Parts]> to countries with which relations are [>30]",
+        		],
+        	"cities": [
+            		"Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+            		"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas",
+            		"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh","Oakland",
+            		"Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia","Spokane",
+            		"Jacksonville","Savannah","Charleston","San Antonio","Omaha","Honolulu","Anchorage","Sacramento","Salt Lake City","Reno",
+            		"Boise","Milwaukee","Santa Cruz","Monterey","Santa Monica","Little Rock","Columbus","Le Bam"
+        		],
+        	"spyNames": [
+            		"Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
         ]
     },
 ]
