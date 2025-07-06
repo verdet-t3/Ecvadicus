@@ -395,4 +395,22 @@
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "Leopard 2",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Modern Armor",
+		"movement": 6,
+		"strength": 110,
+		"cost": 400,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking",
+			"Never appears as a Barbarian unit"
+			],
+		"promotions": ["Blitz"],
+		"hurryCostModifier": 40,
+		"attackSound": "tankshot"
+	},
 ]
