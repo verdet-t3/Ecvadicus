@@ -427,4 +427,17 @@
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
+	{
+        	"name": "Sniper",
+        	"unitType": "Ranged Gunpowder",
+        	"range": 3,
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 50,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["Invisible to non-adjacent units"]
+		"attackSound": "shot"
+    	},
 ]
