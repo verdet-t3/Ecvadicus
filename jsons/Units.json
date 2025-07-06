@@ -354,6 +354,45 @@
         	"upgradesTo": "Mechanized Infantry",
         	"obsoleteTech": "Mobile Tactics",
         	"attackSound": "flamethrowing"
-    },
-	
+    	},
+	{
+		"name": "Stridsvagn 103C",
+		"unitType": "Siege",
+		"replaces": "Self-propelled Artillery",
+        	"uniqueTo": "Sweden",
+        	"movement": 4,
+        	"strength": 36,
+        	"rangedStrength": 42,
+        	"range": 3,
+        	"cost": 420,
+        	"requiredTech": "Combustion",
+        	"upgradesTo": "Stridsvagn 122",
+        	"obsoleteTech": "Rocketry",
+        	"uniques": [
+            		"[+200]% Strength <vs cities> <when attacking>",
+            		"Must set up to ranged attack",
+            		"Never appears as a Barbarian unit"
+        		],
+        	"promotions": ["Quick Study"],
+        	"attackSound": "artillery"
+	},
+	{
+		"name": "Stridsvagn 122",
+		"unitType": "Armored",
+		"uniqueTo": "Sweden",
+		"replaces": "Modern Armor",
+		"movement": 6,
+		"strength": 120,
+		"cost": 460,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking",
+			"[+25]% Strength <vs [Military] units> <when attacking>",
+			"Never appears as a Barbarian unit"
+			],
+		"promotions": ["Quick Study"],
+		"hurryCostModifier": 40,
+		"attackSound": "tankshot"
+	},
 ]
