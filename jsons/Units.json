@@ -396,6 +396,20 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Leopard 2",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Leopard 2",
 		"unitType": "Armored",
 		"uniqueTo": "Germany",
