@@ -366,7 +366,7 @@
         	"range": 3,
         	"cost": 420,
         	"requiredTech": "Combustion",
-        	"upgradesTo": "Stridsvagn 122",
+        	"upgradesTo": "Stridsvagn 122B+",
         	"obsoleteTech": "Rocketry",
         	"uniques": [
             		"[+200]% Strength <vs cities> <when attacking>",
@@ -377,7 +377,7 @@
         	"attackSound": "artillery"
 	},
 	{
-		"name": "Stridsvagn 122",
+		"name": "Stridsvagn 122B+",
 		"unitType": "Armored",
 		"uniqueTo": "Sweden",
 		"replaces": "Modern Armor",
@@ -410,7 +410,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Leopard 2",
+		"name": "Leopard 2A7V",
 		"unitType": "Armored",
 		"uniqueTo": "Germany",
 		"replaces": "Modern Armor",
@@ -440,4 +440,44 @@
 		"uniques": ["Invisible to non-adjacent units"]
 		"attackSound": "shot"
     	},
+	{
+		"name": "Pz.Kpfw. I C",
+		"unitType": "Paratrooping",
+		"uniqueTo": "Germany",
+		"movement": 6,
+		"strength": 40,
+		"cost": 380,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Leopard 2A7V",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus",
+			"May Paradrop up to [9] tiles from inside friendly territory",
+            		"No movement cost to pillage",
+            		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 40,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "M22 Locust",
+		"unitType": "Paratrooping",
+		"uniqueTo": "America",
+		"movement": 7,
+		"strength": 55,
+		"cost": 580,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "M41A1 Bulldog",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Can move after attacking",
+			"No defensive terrain bonus",
+			"May Paradrop up to [9] tiles from inside friendly territory",
+            		"No movement cost to pillage",
+            		"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 40,
+		"attackSound": "tankshot"
+	},
 ]
