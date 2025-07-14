@@ -487,7 +487,7 @@
 		"movement": 8,
 		"strength": 75,
 		"cost": 450,
-		"requiredTech": "Radar",
+		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
 		"upgradesTo": "M48A5 Patton",
 		"uniques": ["Can move after attacking",
@@ -505,7 +505,7 @@
 		"movement": 8,
 		"strength": 85,
 		"cost": 550,
-		"requiredTech": "Computers",
+		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
 		"upgradesTo": "M48A2 Räumpanzer",
 		"uniques": ["Can move after attacking",
@@ -533,6 +533,24 @@
 			"No movement cost to pillage",
             		"Never appears as a Barbarian unit"],
 		"promotions": ["Amphibious", "Landing Party"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "M1 Abrams",
+		"unitType": "Armored",
+		"uniqueTo": "America",
+		"replaces": "Modern Armor",
+		"movement": 6,
+		"strength": 110,
+		"cost": 400,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking",
+			"Never appears as a Barbarian unit"
+			],
+		"promotions": ["Blitz"],
+		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
 ]
