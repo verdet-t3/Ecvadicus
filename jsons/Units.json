@@ -491,12 +491,12 @@
 		"cost": 450,
 		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Oil",
-		"upgradesTo": "ХM551 Sheridan",
+		"upgradesTo": "XM551 Sheridan",
 		"uniques": ["Can move after attacking",
 			"No defensive terrain bonus",
 			"No movement cost to pillage",
             		"Never appears as a Barbarian unit"],
-		"promotions": ["Amphibious", "Landing Party"],
+		"promotions": ["Amphibious"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -517,7 +517,7 @@
 			"Unbuildable",
 			"Cannot be purchased"
 			],
-		"promotions": ["Amphibious", "Landing Party", "Blitz"],
+		"promotions": ["Amphibious", "Blitz"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -571,7 +571,7 @@
             		"No movement cost to pillage",
             		"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Indirect Fire", "Amphibious", "Landing Party"],
+		"promotions": ["Indirect Fire", "Amphibious"],
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
