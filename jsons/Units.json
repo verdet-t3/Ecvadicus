@@ -607,7 +607,7 @@
 		"cost": 350,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "",
+		"upgradesTo": "Pz.Kpfw. VI E",
 		"uniques": ["Can move after attacking",
 			"[+25]% Strength <vs [Military] units> <when attacking>",
 			"Never appears as a Barbarian unit",
