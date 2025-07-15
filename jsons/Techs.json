@@ -648,11 +648,10 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Globalization",
-				"row": 2,
-				"prerequisites": ["Telecommunications"],
-                "uniques": ["[-100]% weight to this choice for AI decisions"],
-				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+				"name": "Internet",
+				"row": 1,
+				"prerequisites": ["Telecommunications", "Satellites"],
+				"quote": "'Read, go to museums, listen to the opera... just for God's sake, don't study life from movies, TV and the Internet.' - Christoph Waltz"
 			},
 			{
 				"name": "Particle Physics",
@@ -696,7 +695,14 @@
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
-			}
+			},
+			{
+				"name": "Globalization",
+				"row": 1,
+				"prerequisites": ["Telecommunications"],
+                		"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+			},
 		]
 	}
 ]
