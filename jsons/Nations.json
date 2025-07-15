@@ -75,7 +75,7 @@
        	 	"uniques": [
             		"[+1] Sight <for [{Military} {Land}] units>",
             		"[-50]% Gold cost of acquiring tiles [in all cities]",
-	    		"Can transfer the Lend-Lease <after discovering the [Replaceable Parts]> to countries with which relations are [>30]",
+	    		"Can transfer the Lend-Lease <after discovering the [Replaceable Parts]> to countries with which relations are [30]",
         		],
         	"cities": [
             		"Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
