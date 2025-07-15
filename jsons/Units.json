@@ -679,4 +679,21 @@
         		],
         	"attackSound": "artillery"
 	},
+	{
+		"name": "Type 74",
+		"unitType": "Armored",
+		"uniqueTo": "Japan",
+		"replaces": "Modern Armor",
+		"movement": 8,
+		"strength": 120,
+		"cost": 520,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking",
+			"Never appears as a Barbarian unit"
+			],
+		"hurryCostModifier": 40,
+		"attackSound": "tankshot"
+	},
 ]
