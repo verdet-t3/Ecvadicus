@@ -652,7 +652,7 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking",
 			"No defensive terrain bonus",
-			"Can be build <if relationship with [Germany] [>30]>",
+			"Can be build <if relationship with [Germany] [30]>",
             		"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Logistics"],
