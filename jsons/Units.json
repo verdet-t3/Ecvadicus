@@ -579,6 +579,7 @@
 		"name": "M48A2 Räumpanzer",
 		"unitType": "Armored",
 		"uniqueTo": "Germany",
+		"replaces": "M48A5 Patton",
 		"movement": 7,
 		"strength": 90,
 		"cost": 480,
@@ -652,11 +653,30 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking",
 			"No defensive terrain bonus",
-			"Can be build <if relationship with [Germany] [30]>",
+			"Can be build <if relationship with [Germany] [=30]>",
             		"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Logistics"],
 		"attackSound": "tankshot"
 	},
-	
+	{
+		"name": "M56",
+		"unitType": "Paratrooping",
+        	"uniqueTo": "America",
+        	"movement": 4,
+        	"strength": 36,
+        	"rangedStrength": 42,
+        	"range": 2,
+        	"cost": 520,
+        	"requiredTech": "Combustion",
+        	"upgradesTo": "XM551 Sheridan",
+        	"obsoleteTech": "Advanced Ballistics",
+        	"uniques": [
+            		"[+200]% Strength <vs cities> <when attacking>",
+            		"Must set up to ranged attack",
+            		"Never appears as a Barbarian unit",
+			"May Paradrop up to [9] tiles from inside friendly territory"
+        		],
+        	"attackSound": "artillery"
+	},
 ]
