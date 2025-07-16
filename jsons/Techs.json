@@ -238,11 +238,11 @@
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
-				"name": "Civil Service",
-				"row": 5,
-				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
-				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"name": "Chivalry",
+				"row": 6,
+				"prerequisites": ["Drama and Poetry", "Horseback Riding"],
+                		"uniques": ["Enables Defensive Pacts"],
+                		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
 				"name": "Guilds",
@@ -283,11 +283,11 @@
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
-				"name": "Chivalry",
-				"row": 6,
-				"prerequisites": ["Civil Service","Guilds"],
-                "uniques": ["Enables Defensive Pacts"],
-                "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+				"name": "Civil Service",
+				"row": 5,
+				"prerequisites": ["Chivalry","Guilds"],
+				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Machinery",
