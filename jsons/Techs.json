@@ -25,7 +25,7 @@
 				"name": "Agriculture",
 				"row": 4,
 				"prerequisites": ["Gathering"],
-				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 			},
 			{
@@ -36,24 +36,10 @@
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
-				"name": "Pottery",
-				"row": 2,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
-			},
-			{
-				"name": "Archery",
-				"row": 7,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
-			},
-			{
 				"name": "Mining",
-				"row": 9,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"row": 8,
+				"prerequisites": ["Gathering"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 
@@ -69,46 +55,26 @@
 			{
 				"name": "Spear and javelins",
 				"row": 7,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"prerequisites": ["Trapping"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Dress a crime in gold, and the strong spear of justice will break without hurting; dress it in rags, and it will be pierced by a pygmy's straw.' - William Shakespeare"
 			},
 			{
-				"name": "Sailing",
-				"row": 1,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
-			},
-			{
-				"name": "Calendar",
+				"name": "Pottery",
 				"row": 2,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-			{
-				"name": "Writing",
-				"row": 3,
-				"prerequisites": ["Pottery"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"prerequisites": ["Agriculture"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Animal Husbandry",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Trapping"],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			},
 			{
-				"name": "The Wheel",
-				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
-			},
-			{
 				"name": "Masonry",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
@@ -116,13 +82,70 @@
 				"name": "Bronze Working",
 				"row": 10,
 				"prerequisites": ["Mining"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Archery",
+				"row": 7,
+				"prerequisites": ["Spear and javelins"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Calendar",
+				"row": 2,
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "Primitive cartography",
+				"row": 1,
+				"prerequisites": ["Pottery"],
+				"quote": "'Without knowledge of geography, a person remains dull, narrow-minded, and limited.' - Immanuel Kant"
+			},
+			{
+				"name": "The Wheel",
+				"row": 8,
+				"prerequisites": ["Masonry"],
+                		"uniques": ["[+200]% weight to this choice for AI decisions"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Ancient era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Primitive cartography"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Writing",
+				"row": 3,
+				"prerequisites": ["Primitive cartography"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+		]
+	},		
+	{
+		"columnNumber": 5,
 		"era": "Classical era",
 		"techCost": 105,
 		"buildingCost": 100,
@@ -159,7 +182,7 @@
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 6,
 		"era": "Classical era",
 		"techCost": 175,
 		"buildingCost": 100,
@@ -201,7 +224,7 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 6,
 		"era": "Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
@@ -237,7 +260,7 @@
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
@@ -288,7 +311,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 8,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -332,7 +355,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 9,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -374,7 +397,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -424,7 +447,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 11,
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
@@ -460,7 +483,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
@@ -503,7 +526,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -538,7 +561,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
@@ -573,7 +596,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -607,7 +630,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -655,7 +678,7 @@
 	},
 
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -696,7 +719,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Information era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -712,7 +735,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 19,
 		"era": "Future era",
 		"techCost": 10500,
 		"buildingCost": 750,
