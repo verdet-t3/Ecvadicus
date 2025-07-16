@@ -43,7 +43,7 @@
         	"name": "America",
         	"leaderName": "George Washington",
         	"adjective": ["American"],
-        	"startBias": ["Avoid [Tudra], Avoid [Desert], Coast"],
+        	"startBias": ["Avoid [Tundra]", "Avoid [Desert]", "Coast"],
         	"preferredVictoryType": "Scientific",
 		"personality": "George Washington",
 		
