@@ -110,10 +110,17 @@
 			{
 				"name": "Bronze Working",
 				"row": 10,
-				"prerequisites": ["Mining", "Pottery"],
+				"prerequisites": ["Masonry", "Pottery"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
-			}
+			},
+			{
+				"name": "The Wheel",
+				"row": 8,
+				"prerequisites": ["Masonry"],
+                		"uniques": ["[+200]% weight to this choice for AI decisions"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
 		]
 	},
 	{
@@ -137,11 +144,11 @@
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
-				"name": "The Wheel",
-				"row": 8,
-				"prerequisites": ["Masonry"],
-                		"uniques": ["[+200]% weight to this choice for AI decisions"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"name": "Horseback Riding",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry", "The Wheel"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Iron Working",
@@ -168,25 +175,11 @@
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
-				"name": "Horseback Riding",
-				"row": 5,
-				"prerequisites": ["Animal Husbandry", "The Wheel"],
-                		"uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
-			},
-			{
 				"name": "Mathematics",
 				"row": 7,
-				"prerequisites": ["The Wheel", "Writing"],
+				"prerequisites": ["The Wheel", "Writing", "Archery"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
-			{
-				"name": "Construction",
-				"row": 9,
-				"prerequisites": ["Masonry", "Iron Working", "Archery"],
-                		"uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
-			}
 		]
 	},
 	{
@@ -222,6 +215,13 @@
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
+			{
+				"name": "Construction",
+				"row": 9,
+				"prerequisites": ["Iron Working", "Mathematics"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
 		]
 	},
 	{
