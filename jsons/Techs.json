@@ -53,8 +53,15 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Spear and javelins",
+				"name": "Spear and Javelins",
 				"row": 7,
+				"prerequisites": ["Trapping"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Dress a crime in gold, and the strong spear of justice will break without hurting; dress it in rags, and it will be pierced by a pygmy's straw.' - William Shakespeare"
+			},
+			{
+				"name": "The Sling",
+				"row": 6,
 				"prerequisites": ["Trapping"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Dress a crime in gold, and the strong spear of justice will break without hurting; dress it in rags, and it will be pierced by a pygmy's straw.' - William Shakespeare"
@@ -90,7 +97,7 @@
 			{
 				"name": "Archery",
 				"row": 7,
-				"prerequisites": ["Spear and javelins"],
+				"prerequisites": ["Spear and Javelins", "The Sling"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
@@ -156,7 +163,14 @@
 				"prerequisites": ["Bronze Working"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
-			}
+			},
+			{
+				"name": "Composting",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
 		]
 	},		
 	{
@@ -175,7 +189,19 @@
 			{
 				"name": "Physics",
 				"row": 8,
-				"prerequisites": ["The Wheel", "Writing", "Archery"],
+				"prerequisites": ["The Wheel", "Writing", "Archery", "Iron Working"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Geography",
+				"row": 2,
+				"prerequisites": ["Calendar","Sailing", "Writing"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Trading",
+				"row": 6,
+				"prerequisites": ["Sailing", "Writing", "Horseback Riding"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 		]
@@ -190,14 +216,14 @@
 			{
 				"name": "Currency",
 				"row": 6,
-				"prerequisites": ["Mathematics"],
+				"prerequisites": ["Mathematics", "Trading"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
 				"name": "Construction",
 				"row": 8,
-				"prerequisites": ["Iron Working", "Mathematics", "Physics"],
+				"prerequisites": ["Mathematics", "Physics"],
                 		"uniques": ["Roads connect tiles across rivers", "[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			},
@@ -212,8 +238,13 @@
 				"cost": 100,
 				"row": 4,
 				"prerequisites": ["Mathematics", "Physics"],
-				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+			{
+				"name": "Logic",
+				"row": 5,
+				"prerequisites": ["Mathematics"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 		]
 	},
@@ -234,7 +265,7 @@
 			{
 				"name": "Philosophy",
 				"row": 2,
-				"prerequisites": ["Writing", "Calendar"],
+				"prerequisites": ["Writing", "Logic"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
@@ -247,7 +278,7 @@
 				"name": "Optics",
 				"cost": 100,
 				"row": 1,
-				"prerequisites": ["Sailing", "The Astrolabe"],
+				"prerequisites": ["Geography", "The Astrolabe"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
@@ -269,7 +300,7 @@
 			{
 				"name": "Chivalry",
 				"row": 6,
-				"prerequisites": ["Drama and Poetry", "Horseback Riding"],
+				"prerequisites": ["Drama and Poetry"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
