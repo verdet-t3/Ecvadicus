@@ -166,7 +166,7 @@
 			},
 			{
 				"name": "Composting",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Animal Husbandry"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
