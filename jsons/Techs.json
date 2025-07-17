@@ -208,10 +208,10 @@
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
-				"name": "Optics",
+				"name": "The Astrolabe",
 				"cost": 100,
-				"row": 1,
-				"prerequisites": ["Sailing", "Physics"],
+				"row": 4,
+				"prerequisites": ["Mathematics", "Physics"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
@@ -227,7 +227,7 @@
 			{
 				"name": "Engineering",
 				"row": 8,
-				"prerequisites": ["Hydraulics", "Construction"],
+				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
@@ -242,6 +242,14 @@
 				"row": 3,
 				"prerequisites": ["Writing"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
+				"name": "Optics",
+				"cost": 100,
+				"row": 1,
+				"prerequisites": ["Sailing", "The Astrolabe"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 		]
 	},
@@ -275,7 +283,7 @@
 			{
 				"name": "Metal Casting",
 				"row": 9,
-				"prerequisites": ["Engineering","Iron Working"],
+				"prerequisites": ["Engineering"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
