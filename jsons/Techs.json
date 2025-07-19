@@ -194,6 +194,12 @@
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
+				"name": "Insurance",
+				"row": 4,
+				"prerequisites": ["Sailing"],
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
 				"name": "Mathematics",
 				"row": 7,
 				"prerequisites": ["The Wheel", "Writing", "Archery"],
@@ -235,7 +241,7 @@
 			{
 				"name": "Currency",
 				"row": 6,
-				"prerequisites": ["Mathematics", "Trading"],
+				"prerequisites": ["Mathematics", "Trading", "Insurance"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
@@ -318,6 +324,13 @@
 				"row": 6,
 				"prerequisites": ["Currency"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Urban Planning",
+				"row": 8,
+				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 		]
 	},
@@ -506,7 +519,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -548,7 +561,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -598,7 +611,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
@@ -634,7 +647,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
@@ -677,7 +690,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -712,7 +725,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
@@ -747,7 +760,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -781,7 +794,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 19,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -829,7 +842,7 @@
 	},
 
 	{
-		"columnNumber": 19,
+		"columnNumber": 20,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -870,7 +883,7 @@
 		]
 	},
 	{
-		"columnNumber": 20,
+		"columnNumber": 21,
 		"era": "Information era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -886,7 +899,7 @@
 		]
 	},
 	{
-		"columnNumber": 21,
+		"columnNumber": 22,
 		"era": "Future era",
 		"techCost": 10500,
 		"buildingCost": 750,
