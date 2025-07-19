@@ -380,7 +380,7 @@
 			{
 				"name": "Feudalism",
 				"row": 6,
-				"prerequisites": ["Chivalry"],
+				"prerequisites": ["Theology"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
