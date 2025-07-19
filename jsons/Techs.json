@@ -218,6 +218,12 @@
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
+				"name": "Shipbuilding",
+				"row": 1,
+				"prerequisites": ["Sailing", "Writing"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
 				"name": "Trading",
 				"row": 6,
 				"prerequisites": ["Sailing", "Writing", "Horseback Riding"],
@@ -315,7 +321,7 @@
 				"name": "Optics",
 				"cost": 100,
 				"row": 1,
-				"prerequisites": ["Geography", "The Astrolabe"],
+				"prerequisites": ["Geography", "The Astrolabe", "Shipbuilding"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
@@ -408,7 +414,7 @@
 			},
 			{
 				"name": "Steel",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Metal Casting"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
@@ -455,8 +461,8 @@
 			{
 				"name": "Banking",
 				"row": 6,
-				"prerequisites": ["Civil Service", "Education"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"prerequisites": ["Civil Service"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
