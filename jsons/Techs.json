@@ -388,23 +388,16 @@
 				"name": "Compass",
 				"cost": 375,
 				"row": 1,
-				"prerequisites": ["Optics","Theology"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"prerequisites": ["Optics"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
 				"name": "Education",
 				"row": 3,
-				"prerequisites": ["Theology","Civil Service"],
+				"prerequisites": ["Theology"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
-			},
-			{
-				"name": "Civil Service",
-				"row": 5,
-				"prerequisites": ["Chivalry","Guilds"],
-				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Machinery",
@@ -430,41 +423,12 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Compass",
-				"cost": 375,
-				"row": 1,
-				"prerequisites": ["Optics","Theology"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
-			},
-			{
-				"name": "Education",
-				"row": 3,
-				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
-				"quote": "'Education is the best provision for old age.' - Aristotle"
-			},
-			{
 				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Chivalry","Guilds"],
+				"prerequisites": ["Education", "Feudalism"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
-			{
-				"name": "Machinery",
-				"row": 8,
-				"prerequisites": ["Guilds","Engineering"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
-			},
-			{
-				"name": "Steel",
-				"row": 10,
-				"prerequisites": ["Metal Casting"],
-                		"uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
-			}
 		]
 	},
 	{
