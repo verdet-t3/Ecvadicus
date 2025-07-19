@@ -225,7 +225,7 @@
 			},
 			{
 				"name": "The Plow",
-				"row": 6,
+				"row": 9,
 				"prerequisites": ["Composting", "Horseback Riding"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
@@ -327,7 +327,7 @@
 			},
 			{
 				"name": "Urban Planning",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
@@ -350,7 +350,7 @@
 			{
 				"name": "Chivalry",
 				"row": 6,
-				"prerequisites": ["Feudalism"],
+				"prerequisites": ["Supply"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
@@ -380,7 +380,7 @@
 			{
 				"name": "Feudalism",
 				"row": 6,
-				"prerequisites": ["Feudalism"],
+				"prerequisites": ["Chivalry"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
