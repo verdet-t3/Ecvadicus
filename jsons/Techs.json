@@ -430,13 +430,6 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Chivalry",
-				"row": 6,
-				"prerequisites": ["Feudalism"],
-                		"uniques": ["Enables Defensive Pacts"],
-                		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
-			},
-			{
 				"name": "Compass",
 				"cost": 375,
 				"row": 1,
