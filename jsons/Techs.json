@@ -252,6 +252,13 @@
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
+				"name": "Flagships",
+				"row": 1,
+				"prerequisites": ["Mathematics", "Geography", "Shipbuilding"],
+                		"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
 				"name": "Construction",
 				"row": 8,
 				"prerequisites": ["Mathematics", "Physics"],
@@ -327,7 +334,7 @@
 				"name": "Optics",
 				"cost": 100,
 				"row": 1,
-				"prerequisites": ["Geography", "The Astrolabe", "Shipbuilding"],
+				"prerequisites": ["The Astrolabe", "Flagships"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
@@ -369,8 +376,8 @@
 			},
 			{
 				"name": "Architecture",
-				"row": 4,
-				"prerequisites": ["Engineering",],
+				"row": 8,
+				"prerequisites": ["Engineering", "Complex Block", "Urban Planning"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 		]
