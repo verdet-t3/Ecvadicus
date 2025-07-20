@@ -33,7 +33,7 @@
 				"row": 5,
 				"prerequisites": ["Gathering"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "'There's no such thing as a spell for happiness. There are drugs for that.' - Helen Hoover Boyle (Chuck Palahniuk) (orig. quote sounds dif.)"
 			},
 			{
 				"name": "Trapping",
@@ -71,7 +71,7 @@
 				"row": 6,
 				"prerequisites": ["Trapping"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Dress a crime in gold, and the strong spear of justice will break without hurting; dress it in rags, and it will be pierced by a pygmy's straw.' - William Shakespeare"
+				"quote": "'The ocean's high waves in a perilous string // Brought on by the ominous weather, // The arrow, the treacherous blade, and the sling // Have spared you in every endeavor… // You've suffered no wounds in your armor supreme; // Your power is guarded by forces unseen.' - Alexander Pushkin"
 			},
 			{
 				"name": "Pottery",
@@ -176,7 +176,7 @@
 				"row": 6,
 				"prerequisites": ["Animal Husbandry"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+				"quote": "'They say that we all have the seeds of what we'll do in life, but I've always felt that those who can make jokes have the best soil and the most fertile seeds.' - Ernest Hemingway"
 			},
 		]
 	},		
@@ -197,7 +197,7 @@
 				"name": "Insurance",
 				"row": 4,
 				"prerequisites": ["Sailing"],
-				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+				"quote": "'Nothing is as cheap and valuable as an insurance policy during an insured event!' - Ilya Ilf and Yevgeny Petrov"
 			},
 			{
 				"name": "Mathematics",
@@ -215,25 +215,25 @@
 				"name": "Geography",
 				"row": 2,
 				"prerequisites": ["Calendar","Sailing", "Writing"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+				"quote": "'Geography tells us about the earth as a dwelling, while history tells us about it as a cemetery.' - Nikolai Fedorov"
 			},
 			{
 				"name": "Shipbuilding",
 				"row": 1,
 				"prerequisites": ["Sailing", "Writing"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+				"quote": "'The captain knows the condition of the ship, but the bilge rats know more.' - English proverb"
 			},
 			{
 				"name": "Trading",
 				"row": 6,
 				"prerequisites": ["Sailing", "Writing", "Horseback Riding"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+				"quote": "'Listen, love can't be bought, so a merchant's talent is useless when it comes to love. Always remember that!' - Horo the Wise (Isuna Hasekura)"
 			},
 			{
 				"name": "The Plow",
 				"row": 9,
 				"prerequisites": ["Composting", "Horseback Riding"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+				"quote": "'The ox plows // The field without joy, // Carrying the heavy plough... // But what about us, tell me, // Are we not harnessed to the plough?' - Ozawa Rōan"
 			},
 		]
 	},
@@ -262,32 +262,32 @@
 				"name": "Hydraulics",
 				"row": 7,
 				"prerequisites": ["Mathematics", "Physics", "The Plow"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'We don't start appreciating water until the well runs dry.' - Thomas Fuller"
 			},
 			{
 				"name": "The Astrolabe",
 				"cost": 100,
 				"row": 4,
 				"prerequisites": ["Mathematics", "Physics"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"quote": "'Taking up the astrolabe, the oracle of the Eastern sages, the physician began to make his calculations with a serious expression.' - Walter Scott"
 			},
 			{
 				"name": "Logic",
 				"row": 5,
 				"prerequisites": ["Mathematics"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'Logic will take you from point A to point B. Imagination will take you anywhere.' - Albert Einstein"
 			},
 			{
 				"name": "Mechanics",
 				"row": 10,
 				"prerequisites": ["Mathematics", "Physics"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'Although many people are afraid of machines, no machine has ever intentionally harmed a human being. Unfortunately, the same cannot be said about human.' - Jacques Fresco"
 			},
 			{
 				"name": "Geodesy",
 				"row": 9,
 				"prerequisites": ["Geography"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+				"quote": "'Saving on surveyors is like saving on matches.' - surveyor's proverb"
 			},
 		]
 	},
@@ -315,7 +315,7 @@
 				"name": "Medicine",
 				"row": 3,
 				"prerequisites": ["Logic"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"quote": "'The word of a loved one heals better than all the doctors in the world.' - Al Pacino"
 			},
 			{
 				"name": "Optics",
@@ -329,14 +329,14 @@
 				"name": "Supply",
 				"row": 6,
 				"prerequisites": ["Currency"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
 			},
 			{
 				"name": "Urban Planning",
 				"row": 9,
 				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+				"quote": "'When you see the wonderful buildings that people used to build in the old days, you can't help but think that they were happier than we are.' - Lillian Dunkirk (Erich Maria Remarque)"
 			},
 		]
 	},
@@ -388,7 +388,7 @@
 				"row": 6,
 				"prerequisites": ["Chivalry"],
                 		"uniques": ["Enables Defensive Pacts"],
-                		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+                		"quote": "'Feudalism made land the measure and the master of all things.' - John Dahlberg-Acton"
 			},
 			{
 				"name": "Compass",
