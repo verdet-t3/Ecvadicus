@@ -196,7 +196,7 @@
 			{
 				"name": "Insurance",
 				"row": 4,
-				"prerequisites": ["Sailing"],
+				"prerequisites": ["Writing", "Sailing"],
 				"quote": "'Nothing is as cheap and valuable as an insurance policy during an insured event!' - Ilya Ilf and Yevgeny Petrov"
 			},
 			{
@@ -300,8 +300,8 @@
 		"techs": [
 			{
 				"name": "Engineering",
-				"row": 8,
-				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
+				"row": 7,
+				"prerequisites": ["Mechanics", "Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
@@ -318,6 +318,12 @@
 				"quote": "'The word of a loved one heals better than all the doctors in the world.' - Al Pacino"
 			},
 			{
+				"name": "Alchemy",
+				"row": 4,
+				"prerequisites": ["Logic"],
+				"quote": "'The word of a loved one heals better than all the doctors in the world.' - Al Pacino"
+			},
+			{
 				"name": "Optics",
 				"cost": 100,
 				"row": 1,
@@ -326,15 +332,23 @@
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
-				"name": "Supply",
-				"row": 6,
-				"prerequisites": ["Currency"],
-				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
+				"name": "Urban Planning",
+				"row": 8,
+				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'When you see the wonderful buildings that people used to build in the old days, you can't help but think that they were happier than we are.' - Lillian Dunkirk (Erich Maria Remarque)"
 			},
 			{
-				"name": "Urban Planning",
+				"name": "Complex Block",
 				"row": 9,
-				"prerequisites": ["Hydraulics", "Construction", "The Astrolabe", "Geodesy"],
+				"prerequisites": ["Construction", "Mechanics"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'When you see the wonderful buildings that people used to build in the old days, you can't help but think that they were happier than we are.' - Lillian Dunkirk (Erich Maria Remarque)"
+			},
+			{
+				"name": "Siege Work",
+				"row": 10,
+				"prerequisites": ["Mechanics"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When you see the wonderful buildings that people used to build in the old days, you can't help but think that they were happier than we are.' - Lillian Dunkirk (Erich Maria Remarque)"
 			},
@@ -342,6 +356,27 @@
 	},
 	{
 		"columnNumber": 8,
+		"era": "Classical era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Supply",
+				"row": 6,
+				"prerequisites": ["Currency"],
+				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
+			},
+			{
+				"name": "Architecture",
+				"row": 4,
+				"prerequisites": ["Engineering",],
+				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
 		"era": "Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
@@ -495,12 +530,6 @@
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
-				"name": "Architecture",
-				"row": 4,
-				"prerequisites": ["Acoustics","Banking"],
-				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
-			},
-			{
 				"name": "Economics",
 				"row": 6,
 				"prerequisites": ["Banking","Printing Press"],
@@ -533,14 +562,14 @@
 			{
 				"name": "Archaeology",
 				"row": 2,
-				"prerequisites": ["Navigation","Architecture"],
+				"prerequisites": ["Navigation"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
 				"name": "Scientific Theory",
 				"row": 4,
-				"prerequisites": ["Architecture","Economics"],
+				"prerequisites": ["Economics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
