@@ -412,7 +412,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 10,
 		"era": "Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
@@ -457,7 +457,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 11,
 		"era": "Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
@@ -473,7 +473,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -517,7 +517,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -553,7 +553,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -603,7 +603,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
@@ -639,7 +639,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
@@ -682,7 +682,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 17,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -717,7 +717,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 18,
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
@@ -752,7 +752,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 19,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -786,7 +786,7 @@
 		]
 	},
 	{
-		"columnNumber": 19,
+		"columnNumber": 20,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -834,7 +834,7 @@
 	},
 
 	{
-		"columnNumber": 20,
+		"columnNumber": 21,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -875,7 +875,7 @@
 		]
 	},
 	{
-		"columnNumber": 21,
+		"columnNumber": 22,
 		"era": "Information era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -891,7 +891,7 @@
 		]
 	},
 	{
-		"columnNumber": 22,
+		"columnNumber": 23,
 		"era": "Future era",
 		"techCost": 10500,
 		"buildingCost": 750,
