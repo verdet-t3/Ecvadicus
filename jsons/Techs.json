@@ -184,6 +184,13 @@
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'They say that we all have the seeds of what we'll do in life, but I've always felt that those who can make jokes have the best soil and the most fertile seeds.' - Ernest Hemingway"
 			},
+			{
+				"name": "Metal Casting",
+				"row": 9,
+				"prerequisites": ["Bronze Working"],
+		                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
 		]
 	},		
 	{
@@ -214,7 +221,7 @@
 			{
 				"name": "Physics",
 				"row": 8,
-				"prerequisites": ["The Wheel", "Writing", "Archery", "Iron Working"],
+				"prerequisites": ["Metal Casting", "The Wheel", "Writing", "Archery", "Iron Working"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
@@ -447,17 +454,16 @@
 			},
 			{
 				"name": "Guilds",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Supply"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
-				"name": "Metal Casting",
-				"row": 8,
-				"prerequisites": ["Engineering"],
-		                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"name": "Theory of Momentum",
+				"row": 7,
+				"prerequisites": ["Complex Block", "Engineering"],
+				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "Central Heating",
@@ -511,15 +517,15 @@
 			},
 			{
 				"name": "Machinery",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Guilds"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "Steel",
-				"row": 9,
-				"prerequisites": ["Metal Casting"],
+				"row": 8,
+				"prerequisites": ["Chivalry"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			},
