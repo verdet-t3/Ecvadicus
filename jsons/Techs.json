@@ -388,6 +388,12 @@
 				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
 			},
 			{
+				"name": "Prose",
+				"row": 2,
+				"prerequisites": ["Philosophy"],
+				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
+			},
+			{
 				"name": "Complex Dyes",
 				"row": 5,
 				"prerequisites": ["Alchemy"],
@@ -417,7 +423,7 @@
 			{
 				"name": "Theology",
 				"row": 2,
-				"prerequisites": ["Philosophy"],
+				"prerequisites": ["Prose"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
@@ -435,7 +441,7 @@
 			{
 				"name": "Chivalry",
 				"row": 6,
-				"prerequisites": ["Supply"],
+				"prerequisites": ["Prose", "Supply"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
@@ -452,7 +458,13 @@
 				"prerequisites": ["Engineering"],
 		                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
-			}
+			},
+			{
+				"name": "Central Heating",
+				"row": 9,
+				"prerequisites": ["Architecture", "Hypocaust"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
 		]
 	},
 	{
