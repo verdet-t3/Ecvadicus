@@ -371,7 +371,7 @@
 			{
 				"name": "Supply",
 				"row": 6,
-				"prerequisites": ["Currency"],
+				"prerequisites": ["Siege Work", "Currency"],
 				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
 			},
 			{
@@ -384,7 +384,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "Medieval era",
+		"era": "The Early Medieval era",
 		"techCost": 275,
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -393,6 +393,18 @@
 				"name": "Theology",
 				"row": 2,
 				"prerequisites": ["Philosophy"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "Anatomy",
+				"row": 3,
+				"prerequisites": ["Medicine"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "Distillation",
+				"row": 4,
+				"prerequisites": ["Alchemy"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
@@ -411,7 +423,7 @@
 			},
 			{
 				"name": "Metal Casting",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Engineering"],
 		                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
@@ -420,7 +432,7 @@
 	},
 	{
 		"columnNumber": 10,
-		"era": "Medieval era",
+		"era": "The Early Medieval era",
 		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
@@ -429,6 +441,13 @@
 				"name": "Feudalism",
 				"row": 6,
 				"prerequisites": ["Chivalry"],
+                		"uniques": ["Enables Defensive Pacts"],
+                		"quote": "'Feudalism made land the measure and the master of all things.' - John Dahlberg-Acton"
+			},
+			{
+				"name": "Scholasticism",
+				"row": 2,
+				"prerequisites": ["Theology"],
                 		"uniques": ["Enables Defensive Pacts"],
                 		"quote": "'Feudalism made land the measure and the master of all things.' - John Dahlberg-Acton"
 			},
@@ -450,7 +469,7 @@
 			{
 				"name": "Machinery",
 				"row": 8,
-				"prerequisites": ["Guilds","Engineering"],
+				"prerequisites": ["Guilds","Metal Casting"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
