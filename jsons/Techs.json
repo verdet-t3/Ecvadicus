@@ -43,6 +43,12 @@
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
+				"name": "Dyes",
+				"row": 7,
+				"prerequisites": ["Gathering"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
 				"name": "Mining",
 				"row": 8,
 				"prerequisites": ["Gathering"],
@@ -89,7 +95,7 @@
 			{
 				"name": "Masonry",
 				"row": 8,
-				"prerequisites": ["Mining"],
+				"prerequisites": ["Mining", "Dyes"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 		]
@@ -375,8 +381,20 @@
 				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
 			},
 			{
+				"name": "Complex Dyes",
+				"row": 5,
+				"prerequisites": ["Alchemy"],
+				"quote": "'We must become the great arsenal of democracy.' - Franklin Delano Roosevelt, from his speech on Lend-Lease supplies"
+			},
+			{
+				"name": "Hypocaust",
+				"row": 9,
+				"prerequisites": ["Engineering", "Complex Block", "Urban Planning"],
+				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+			},
+			{
 				"name": "Architecture",
-				"row": 8,
+				"row": 10,
 				"prerequisites": ["Engineering", "Complex Block", "Urban Planning"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
