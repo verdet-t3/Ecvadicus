@@ -856,7 +856,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 20,
 		"era": "Modern era",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -891,7 +891,7 @@
 		]
 	},
 	{
-		"columnNumber": 19,
+		"columnNumber": 21,
 		"era": "Atomic era",
 		"techCost": 5100,
 		"buildingCost": 500,
@@ -926,7 +926,7 @@
 		]
 	},
 	{
-		"columnNumber": 20,
+		"columnNumber": 22,
 		"era": "Atomic era",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -948,7 +948,7 @@
 				"name": "Rocketry",
 				"row": 6,
 				"prerequisites": ["Radar"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
+                                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
@@ -960,7 +960,7 @@
 		]
 	},
 	{
-		"columnNumber": 21,
+		"columnNumber": 23,
 		"era": "Information era",
 		"techCost": 7700,
 		"buildingCost": 750,
@@ -1008,7 +1008,7 @@
 	},
 
 	{
-		"columnNumber": 22,
+		"columnNumber": 24,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
@@ -1049,7 +1049,7 @@
 		]
 	},
 	{
-		"columnNumber": 23,
+		"columnNumber": 25,
 		"era": "Information era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -1065,7 +1065,7 @@
 		]
 	},
 	{
-		"columnNumber": 24,
+		"columnNumber": 26,
 		"era": "Future era",
 		"techCost": 10500,
 		"buildingCost": 750,
