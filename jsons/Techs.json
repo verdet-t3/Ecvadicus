@@ -633,7 +633,6 @@
 	{
 		"columnNumber": 14,
 		"era": "The Late Medieval era",
-		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
@@ -648,7 +647,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "Renaissance era",
+		"era": "The Late Medieval era",
 		"techCost": 780,
 		"buildingCost": 200,
 		"wonderCost": 500,
@@ -692,7 +691,7 @@
 	},
 	{
 		"columnNumber": 16,
-		"era": "Renaissance era",
+		"era": "The Late Medieval era",
 		"techCost": 1150,
 		"buildingCost": 250,
 		"wonderCost": 625,
