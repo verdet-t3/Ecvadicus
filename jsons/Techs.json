@@ -219,6 +219,13 @@
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
+				"name": "Sport",
+				"row": 5,
+				"prerequisites": ["Horseback Riding"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
 				"name": "Physics",
 				"row": 8,
 				"prerequisites": ["Metal Casting", "The Wheel", "Writing", "Archery", "Iron Working"],
@@ -260,7 +267,7 @@
 			{
 				"name": "Currency",
 				"row": 6,
-				"prerequisites": ["Mathematics", "Trading", "Insurance"],
+				"prerequisites": ["Sport". "Mathematics", "Trading", "Insurance"],
                 		"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
@@ -425,6 +432,13 @@
 				"prerequisites": ["Optics"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
+			{
+				"name": "Machinery",
+				"row": 8,
+				"prerequisites": ["Siege Work"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
 		]
 	},
 	{
@@ -469,7 +483,7 @@
 			{
 				"name": "Theory of Momentum",
 				"row": 7,
-				"prerequisites": ["Complex Block", "Engineering"],
+				"prerequisites": ["Engineering"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
@@ -517,7 +531,7 @@
 			{
 				"name": "Steel",
 				"row": 8,
-				"prerequisites": ["Chivalry"],
+				"prerequisites": ["Machinery", "Chivalry"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			},
@@ -547,8 +561,15 @@
 			{
 				"name": "Stern-mounted Rudders",
 				"row": 1,
-				"prerequisites": ["Optics"],
+				"prerequisites": ["Sailing Armament"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Blast Furnace",
+				"row": 8,
+				"prerequisites": ["Steel"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
@@ -595,6 +616,38 @@
 	},
 	{
 		"columnNumber": 13,
+		"era": "The Late Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Surgery",
+				"row": 3,
+				"prerequisites": ["Education"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "The Late Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Quarantine",
+				"row": 3,
+				"prerequisites": ["Education"],
+                		"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+		]
+	},
+	{
+		"columnNumber": 15,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -638,7 +691,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 16,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -671,17 +724,10 @@
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			},
-			{
-				"name": "Machinery",
-				"row": 7,
-				"prerequisites": ["Printing Press"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
-			},
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 17,
 		"era": "Industrial era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -731,7 +777,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 18,
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
@@ -767,7 +813,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 19,
 		"era": "Modern era",
 		"techCost": 3100,
 		"buildingCost": 500,
