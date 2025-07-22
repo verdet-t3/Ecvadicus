@@ -418,6 +418,13 @@
 				"prerequisites": ["Engineering", "Complex Block", "Urban Planning"],
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
+			{
+				"name": "Sailing Armament",
+				"cost": 100,
+				"row": 1,
+				"prerequisites": ["Optics"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
 		]
 	},
 	{
@@ -501,26 +508,11 @@
                 		"quote": "'Feudalism made land the measure and the master of all things.' - John Dahlberg-Acton"
 			},
 			{
-				"name": "Compass",
-				"cost": 375,
-				"row": 1,
-				"prerequisites": ["Optics"],
-                		"uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
-			},
-			{
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Anatomy", "Theology"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
-			},
-			{
-				"name": "Machinery",
-				"row": 7,
-				"prerequisites": ["Guilds"],
-				"uniques": ["Improves movement speed on roads"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "Steel",
@@ -553,16 +545,56 @@
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
+				"name": "Stern-mounted Rudders",
+				"row": 1,
+				"prerequisites": ["Optics"],
+				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
 				"name": "Strong Alcohol",
 				"row": 4,
 				"prerequisites": ["Distillation"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
+			{
+				"name": "Artesian Well",
+				"cost": 375,
+				"row": 9,
+				"prerequisites": ["Carruca (heavy plow)", "Steel"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Stationary Сrane",
+				"cost": 375,
+				"row": 7,
+				"prerequisites": ["Theory of Momentum"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
 		]
 	},
 	{
 		"columnNumber": 12,
+		"era": "The High Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Compass",
+				"cost": 375,
+				"row": 1,
+				"prerequisites": ["Stern-mounted Rudders"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+		]
+	},
+	{
+		"columnNumber": 13,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"buildingCost": 200,
@@ -592,7 +624,7 @@
 			{
 				"name": "Printing Press",
 				"row": 8,
-				"prerequisites": ["Machinery"],
+				"prerequisites": ["Civil Service"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
@@ -606,7 +638,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"buildingCost": 250,
@@ -638,7 +670,14 @@
 				"prerequisites": ["Gunpowder"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
-			}
+			},
+			{
+				"name": "Machinery",
+				"row": 7,
+				"prerequisites": ["Printing Press"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
 		]
 	},
 	{
