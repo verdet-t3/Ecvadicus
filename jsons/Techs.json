@@ -498,6 +498,12 @@
 				"prerequisites": ["Supply"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			},
+			{
+				"name": "Quilted Armor",
+				"row": 10,
+				"prerequisites": ["Complex Dyes", "Machinery"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
 		]
 	},
 	{
@@ -531,7 +537,7 @@
 			{
 				"name": "Steel",
 				"row": 8,
-				"prerequisites": ["Machinery", "Chivalry"],
+				"prerequisites": ["Quilted Armor", "Chivalry"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			},
@@ -555,6 +561,13 @@
 				"name": "Civil Service",
 				"row": 5,
 				"prerequisites": ["Education", "Feudalism"],
+				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Chain Mail",
+				"row": 6,
+				"prerequisites": ["Steel"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
@@ -612,6 +625,20 @@
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
+			{
+				"name": "Pharmacy",
+				"row": 3,
+				"prerequisites": ["Strong Alcohol", "Education"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Plate Armor",
+				"row": 3,
+				"prerequisites": ["Strong Alcohol", "Education"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
 		]
 	},
 	{
@@ -624,9 +651,23 @@
 			{
 				"name": "Surgery",
 				"row": 3,
-				"prerequisites": ["Education"],
+				"prerequisites": ["Pharmacy"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Epidemiology",
+				"row": 4,
+				"prerequisites": ["Pharmacy"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Gunpowder",
+				"row": 10,
+				"prerequisites": ["Blast Furnace"],
+                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			},
 		]
 	},
@@ -662,7 +703,7 @@
 			{
 				"name": "Acoustics",
 				"row": 4,
-				"prerequisites": ["Education"],
+				"prerequisites": ["Civil Service"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
@@ -680,13 +721,6 @@
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
-			{
-				"name": "Gunpowder",
-				"row": 10,
-				"prerequisites": ["Steel"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
-			}
 		]
 	},
 	{
