@@ -500,7 +500,7 @@
 			},
 			{
 				"name": "Quilted Armor",
-				"row": 10,
+				"row": 8,
 				"prerequisites": ["Complex Dyes", "Machinery"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			},
@@ -634,7 +634,7 @@
 			},
 			{
 				"name": "Plate Armor",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Chain Mail"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
