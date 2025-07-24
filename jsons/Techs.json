@@ -666,6 +666,12 @@
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
+			{
+				"name": "Pumps",
+				"row": 8,
+				"prerequisites": ["Artesian Well"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
 		]
 	},
 	{
