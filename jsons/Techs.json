@@ -542,7 +542,7 @@
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			},
 			{
-				"name": "Carruca (heavy plough)",
+				"name": "Carruca (heavy plow)",
 				"row": 10,
 				"prerequisites": ["The Two-Field System"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
