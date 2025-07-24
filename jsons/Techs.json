@@ -493,7 +493,7 @@
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			},
 			{
-				"name": "The Three-Field System",
+				"name": "The Two-Field System",
 				"row": 10,
 				"prerequisites": ["Supply"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
@@ -542,9 +542,9 @@
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			},
 			{
-				"name": "Carruca (heavy plow)",
+				"name": "Carruca (heavy plough)",
 				"row": 10,
-				"prerequisites": ["The Three-Field System"],
+				"prerequisites": ["The Two-Field System"],
                 		"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
 			},
@@ -575,6 +575,20 @@
 				"name": "Stern-mounted Rudders",
 				"row": 1,
 				"prerequisites": ["Sailing Armament"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Dentistry",
+				"row": 3,
+				"prerequisites": ["Education"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Botany",
+				"row": 2,
+				"prerequisites": ["Education", "Scholasticism"],
 				"uniques": ["Enables Open Borders agreements","[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
@@ -628,14 +642,27 @@
 			{
 				"name": "Pharmacy",
 				"row": 3,
-				"prerequisites": ["Strong Alcohol", "Education"],
+				"prerequisites": ["Botany", "Strong Alcohol", "Dentistry"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
 				"name": "Plate Armor",
-				"row": 4,
+				"row": 6,
 				"prerequisites": ["Chain Mail"],
+                		"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "The Three-Field System",
+				"row": 9,
+				"prerequisites": ["Artesian Well"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Advanced Irrigation System",
+				"row": 10,
+				"prerequisites": ["Artesian Well"],
                 		"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
@@ -674,6 +701,7 @@
 	{
 		"columnNumber": 14,
 		"era": "The Late Medieval era",
+		"techCost": 485,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
@@ -704,7 +732,7 @@
 				"name": "Astronomy",
 				"row": 2,
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
-				"prerequisites": ["Compass","Education"],
+				"prerequisites": ["Compass"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
