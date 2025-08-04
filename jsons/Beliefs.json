@@ -298,12 +298,12 @@
     	{
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+50]% Natural religion spread [in all cities]",] 
+        "uniques": ["[+50]% Natural religion spread [in all cities]"] 
     	},
     	{
         "name": "Holy City of Faith",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in holy cities]",]
+        "uniques": ["[+100]% Natural religion spread [in holy cities]"]
     	},
     	{
         "name": "Reliquary",
