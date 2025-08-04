@@ -83,7 +83,7 @@
         "type": "Pantheon",
         "uniques": ["[+1 Production, +1 Gold] from every [Quarry]"
     	},
-    	{
+	{
         "name": "Patron Saint",
         "type": "Pantheon",
         "uniques": ["[All] Units adjacent to this city heal [+35] HP per turn when healing"]
