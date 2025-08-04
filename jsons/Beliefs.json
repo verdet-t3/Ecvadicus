@@ -47,8 +47,8 @@
         "name": "Oral Tradition",
         "type": "Pantheon",
         "uniques": ["[+2 Gold] from every [Plantation]","[+1 Gold] from every [Farm]"]
-    },
-    {
+    	},
+    	{
         "name": "God of Craftsman",
         "type": "Pantheon",
         "uniques": ["[+2 Gold] from every [Lumber mill]","[+1 Gold] from every [Mine]"]
