@@ -77,5 +77,21 @@
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
 	},
-
+	{
+    "name": "Hrad",
+    "replaces": "Walls",
+    "uniqueTo": "Nitra",
+    "cost": 100,
+    "hurryCostModifier": 25,
+    "maintenance": 3,
+    "cityStrength": 7,
+	"cityHealth": 90,
+    "uniques": [
+      	"[+1 Culture]",
+      	"[+2 Faith]",
+		"[+15]% Production when constructing [Military] units [in this city]",
+		"Destroyed when the city is captured"
+    ],
+    "requiredTech": "Masonry"
+  }
 ]
