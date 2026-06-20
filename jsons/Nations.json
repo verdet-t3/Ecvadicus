@@ -34,9 +34,9 @@
 		"uniqueName": "Pioneers of the Reformation",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "[+1 Science] from every specialist [in all cities]", "[+1 Culture] from every specialist [in all cities]", "[+3 Gold] from each Trade Route"],
 		"cities": ["Praha","Brno","Ostrava","Plzen","Liberec","Olomouc","Pardubice","Karlovy Vary",
-			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Děčín","Ústí nad Labem","Teplice","Kladno","Most",
-			"České Budějovice","","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
-			"Tábor","Cheb","Trutnov","Písek","Šumperk","Sokolov","Krušovice", "Český Krumlov"]
+			"Chomutov","Adamov","Tachov","Klatovy","Kroměříž","Krušovice","Ústí nad Labem","Teplice","Kladno","Most",
+			"České Budějovice","Tábor","Hradec Králové","Benešov","Blansko","Zlín","Opava","Jíhlava","Jablonec nad Jizerou","Mladá Boleslav",
+			"Děčín","Cheb","Trutnov","Písek","Šumperk","Sokolov", "Český Krumlov"]
 		"spyNames": ["Václav", "Karolína", "Boleslav", "Jaroslav", "Jan", "Jiří", "Lukáš", "Tereza", "Karl", "Vojtěch", "Pavel", "Arina"]
 	},
 	{
@@ -89,4 +89,52 @@
             		"Cousin","Felix","Dennis","Edward","Prof. Rex","Eliza","Mary","Virginia","Scarlett","Barbara"
         ]
     },
+	{
+	"name": "Nitra",
+	"leaderName": "Pribina",
+	"adjective": ["Nitran"],
+	"startBias": ["Avoid [Tundra]", "Hill", "Forest"],
+	"preferredVictoryType": "Domination",
+	"personality": "Pribina",
+	
+	"startIntroPart1": "Pribina was the first known ruler of the Nitran Principality, a Slavic state in the territory of present-day Slovakia. He ruled from around 825 to 833, when he was expelled by Mojmír I of Moravia. Pribina later became a loyal vassal of the East Frankish Kingdom and founded the Balaton Principality.",
+	"startIntroPart2": "Under Pribina's rule, Nitra was a center of early Slavic Christianity and trade. His legacy is one of resilience, diplomacy, and the struggle to maintain independence between the great powers of the Frankish Empire and the Bulgarian Khanate. Will you lead the Nitran people to glory, or will they be swallowed by larger neighbors once again?",
+	
+	"declaringWar": "By the time the sluggish heralds of your little blot on the map finally reach you, it will be far too late when you learn a few things. First, it seems my warriors have taken a pleasant stroll near your lands... You do not mind, do you? Ah, have I wounded your pride and breached your so-called sovereignty? Oh, who could possibly care, when, secondly, the entire world has now learned of your foul vices—not without my generous assistance. No soul loves you... Now, fall to your knees and kiss my feet.",
+	"attacked": "Nothing but bravado... What total nonsense you’re spouting. You'd better look at yourself. Granted, I wasn't there to see it, but rumor has it the ladies are quite vexed with your... unconventional pastimes. In any case, it seems I must teach you a lesson.",
+	"defeated": "A Pyrrhic victory, is it not? Look around you: you stand alone amidst ruins that no soul desires, and you yourself are wanted by none. A worthless wretch, who slaughtered hundreds... and for what? For sweet fantasies, to stroke your own fragile pride? Did it bring you some foul, solitary pleasure to watch the walls of my capital crumble? Hmph... I pray your wretched lineage ends with you. Though, judging by your miserable luck with women, that is already a certainty. The final word is mine, you pathetic prattler... you pygmy.",
+	"introduction": "Another milksop on my hands... And we are to be acquainted, then? Plainly, today is not my day... I am Pribina. I have no fondness for polite chatter, yet I am never at a loss for words. So, if you are no mere prattler, do me a kindness and dispel my boredom with something of true worth.",
+	
+	"neutralHello": "Do not force me to waste my breath yet again. Unless, of course, you are a masochist who delights in being bathed in new, scathing titles. Or, perhaps, if your visit actually holds some shred of merit...",
+	"neutralLetsHearIt": ["Speak your mind.", "I'm listening.", "Go on, I have time."],
+	"neutralNo": ["That is not in our interest.", "We must decline.", "Impossible."],
+	"neutralYes": ["Agreed.", "We accept your offer.", "A wise decision."],
+
+	"hateHello": "Red flags, you say?.. Those are my ducal banners. Now, what business have you here? What is that wretched squeaking I hear?.. Ah, it is you, the rat that scuttles beneath my feet... Shoo now, before I choke the life out of you.",
+	"hateLetsHearIt": ["Make it quick.", "I have better things to do.", "Out with it!"],
+	"hateNo": ["Never!", "We would rather die!", "Absolutely not!"],
+	"hateYes": ["Fine. But this is the last time.", "Against my better judgment...", "Very well, but I will remember this."],
+	
+	"afterPeace": "Peace is a fragile flower in these lands. Let us not trample it again.",
+	"tradeRequest": "This is a fair offer, I assure you. Our highland goods are worth their weight in gold.",
+	
+	"outerColor": [247, 247, 247],
+    "innerColor": [228, 16, 33],
+	"favoredReligion": "Christianity",
+	"uniqueName": "Guardians of the Highlands",
+	"uniques": [
+		"[+6] Defense [in all cities] <in [Hill] tiles>",
+      "[+3] Defense [in all cities] <adjacently facing [River] tiles>",
+      "[+15]% Production when constructing [Defensive] buildings [in all cities]",
+      "[+20]% Combat Strength [SelectedUnits] <when fighting in [Hill] tiles> <in [Friendly] territory>",
+      "[+20]% Combat Strength [SelectedUnits] <when fighting in [Forest] tiles> <in [Friendly] territory>"
+	],
+	"cities": [
+		"Nitra","Bratislava","Trnava","Trenčín","Žilina", 
+		"Banská Bystrica","Považská Bystrica","Banská Štiavnica","Košice","Prešov","Poprad", 
+		"Martin","Liptovský Mikuláš","Zvolen","Komárno", 
+		"Nové Zámky","Prievidza","Ružomberok","Skalica","Senec","Hlohovec","Dubnica nad Váhom","Čadca","Lučenec","Humenné",
+	],
+	"spyNames": ["Radovan", "Milan", "Vladimir", "Drahomíra", "Ludmila", "Bořivoj", "Vratislav", "Dobromila", "Svatopluk", "Zdeněk", "Libor", "Jarmila"]
+}
 ]
