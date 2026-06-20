@@ -696,4 +696,23 @@
 		"hurryCostModifier": 40,
 		"attackSound": "tankshot"
 	},
+	{
+    "name": "Pohronie Vityaz",
+    "replaces": "Swordsman",
+    "uniqueTo": "Nitra",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 16,
+    "cost": 75,
+    "requiredResource": "Iron",
+    "requiredTech": "Iron Working",
+    "uniques": [
+      "[+1] Sight",
+      "Double movement in [Hills]",
+		"Double movement in [Forest]"
+    ],
+    "promotions": ["Forest Ranger"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+  }
 ]
