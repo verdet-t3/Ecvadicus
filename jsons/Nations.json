@@ -115,8 +115,8 @@
 			"afterPeace": "Peace is a fragile flower in these lands. Let us not trample it again.",
 			"tradeRequest": "This is a fair offer, I assure you. Our highland goods are worth their weight in gold.",
 	
-			"outerColor": [247, 247, 247],
-    		"innerColor": [228, 16, 33],
+			"outerColor": [228, 16, 33],
+    		"innerColor": [247, 247, 247],
 			"favoredReligion": "Christianity",
 			"uniqueName": "Guardians of the Highlands",
 			"uniques": [
