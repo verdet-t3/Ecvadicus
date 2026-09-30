@@ -127,7 +127,7 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
+		"promotions": ["Quick Study"],
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"attackSound": "horse"
