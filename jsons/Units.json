@@ -993,4 +993,113 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Italic Militia",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"upgradesTo": ["Principes", "Triarius"],
+		"obsoleteTech": "Iron Working",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Principes",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 65,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Legionary",
+		"obsoleteTech": "The Plow",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Triarius",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"upgradesTo": "Auxilia Hastatus",
+		"obsoleteTech": "Mathematics",
+		"uniques": [
+			"[+66]% Strength vs [Mounted] units",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Legionary",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 19,
+		"cost": 110,
+		"requiredTech": "The Plow",
+		"requiredResource": "Iron",
+		"upgradesTo": "Plumbatarius",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"Can build [Fort] improvements on tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Auxilia Hastatus",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 20,
+		"cost": 130,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Scutatos",
+		"obsoleteTech": "Machinery",
+		"uniques": [
+			"[+66]% Strength vs [Mounted] units",
+			"Can move after attacking",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Plumbatarius",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 26,
+		"cost": 145,
+		"requiredTech": "Physics",
+		"upgradesTo": "Scutatos",
+		"obsoleteTech": "Machinery",
+		"uniques": [
+			"[+25]% Strength when attacking",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Scutatos",
+		"uniqueTo": ["Rome", "Byzantium"],
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 31,
+		"cost": 185,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"[+33]% Strength when defending",
+			"[+33]% Strength vs [Mounted] units",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "metalhit"
+	}
 ]
