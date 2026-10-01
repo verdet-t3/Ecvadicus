@@ -868,9 +868,114 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
   	},
+
+	//Naval Units (Byzantium)
+
 	{
 		"name": "Monoreme",
-		"uniqueTo": ["Rome", "Byzantium", "Greece", "Carthage"],
+		"uniqueTo": "Byzantium",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 9,
+		"cost": 35,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles",
+			"Never appears as a Barbarian unit"],
+		"upgradesTo": "Triera",
+		"obsoleteTech": "Shipbuilding",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Triera",
+		"uniqueTo": "Byzantium",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 12,
+		"cost": 50,
+		"requiredTech": "Shipbuilding",
+		"uniques": ["Cannot enter ocean tiles",
+			"Never appears as a Barbarian unit"],
+		"upgradesTo": ["Quinquereme cum Corvo", "Quinquereme", "Liburna"],
+		"obsoleteTech": "Optics",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Diera",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium"
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 13,
+		"cost": 60,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Pentera",
+		"obsoleteTech": "Flagships",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Pentera",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium"
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 13,
+		"cost": 60,
+		"requiredTech": "Flagships",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": ["Dromon", "Hexera"]
+		"obsoleteTech": "Sailing Armament",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Hexera",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium"
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 13,
+		"cost": 60,
+		"requiredTech": "Sailing Armament",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Decera",
+		"obsoleteTech": "Optics",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Decera",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium"
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 13,
+		"cost": 60,
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Dromon",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Sailing Armament",
+		"uniques": ["Cannot enter ocean tiles",
+			"[+50]% Strength <vs [Water] units>"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"
+	},
+	
+	//Naval Units (Rome)
+	
+	{
+		"name": "Unireme",
+		"uniqueTo": "Rome",
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 9,
@@ -884,7 +989,7 @@
 	},
 	{
 		"name": "Trireme",
-		"uniqueTo": ["Rome", "Byzantium", "Greece", "Carthage"],
+		"uniqueTo": "Rome"
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 12,
@@ -898,7 +1003,7 @@
 	},
 	{
 		"name": "Liburna",
-		"uniqueTo": ["Rome", "Byzantium", "Greece"],
+		"uniqueTo": "Rome",
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 10,
@@ -912,7 +1017,7 @@
 	},
 	{
 		"name": "Sambuca",
-		"uniqueTo": ["Rome", "Byzantium", "Greece"],
+		"uniqueTo": "Rome",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 18,
@@ -928,7 +1033,7 @@
 	{
 		"name": "Quinquereme",
 		"unitType": "Melee Water",
-		"uniqueTo": ["Greece", "Carthage"],
+		"uniqueTo": "Carthage",
 		"movement": 3,
 		"strength": 19,
 		"cost": 75,
@@ -941,7 +1046,7 @@
 	{
 		"name": "Quinquereme cum Corvo",
 		"unitType": "Melee Water",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"movement": 3,
 		"strength": 21,
 		"cost": 80,
@@ -955,7 +1060,7 @@
 	{
 		"name": "Chelandion",
 		"unitType": "Melee Water",
-		"uniqueTo": ["Rome", "Byzantium", "Greece"],
+		"uniqueTo": "Rome",
 		"movement": 4,
 		"strength": 24,
 		"cost": 100,
@@ -968,7 +1073,7 @@
 	{
 		"name": "Tunisian Xebec",
 		"unitType": "Melee Water",
-		"uniqueTo": ["Carthage"],
+		"uniqueTo": "Carthage",
 		"movement": 5,
 		"strength": 21,
 		"cost": 80,
@@ -980,22 +1085,8 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Dromon",
-		"unitType": "Ranged Water",
-		"uniqueTo": ["Rome", "Byzantium"],
-		"movement": 4,
-		"strength": 20,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
-		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Italic Militia",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
@@ -1007,7 +1098,7 @@
 	},
 	{
 		"name": "Principes",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 12,
@@ -1020,7 +1111,7 @@
 	},
 	{
 		"name": "Triarius",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
@@ -1037,7 +1128,7 @@
 	},
 	{
 		"name": "Legionary",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 19,
@@ -1054,7 +1145,7 @@
 	},
 	{
 		"name": "Auxilia Hastatus",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 20,
@@ -1071,7 +1162,7 @@
 	},
 	{
 		"name": "Plumbatarius",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 26,
@@ -1086,8 +1177,8 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Scutatos",
-		"uniqueTo": ["Rome", "Byzantium"],
+		"name": "Skutatos",
+		"uniqueTo": "Rome",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 31,
