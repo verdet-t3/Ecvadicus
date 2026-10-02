@@ -1,7 +1,8 @@
 [
 	//Bohemian promotions
 	{
-		"name": "75 mm Škoda A18 (s automatickým nabíjením)""uniques": [
+		"name": "75 mm Škoda A18 (s automatickým nabíjením)",
+		"uniques": [
 			"[3] additional attacks per turn",
 			"can not defending <if attacked earlier>"
 		]
