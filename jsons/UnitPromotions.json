@@ -1,10 +1,157 @@
 [
-{
-		"name": "75 mm Škoda A18 (s automatickým nabíjením)"
-		"uniques": ["[3] additional attacks per turn", "can not defending <if attacked earlier>"]
+	//Bohemian promotions
+	{
+		"name": "75 mm Škoda A18 (s automatickým nabíjením)""uniques": [
+			"[3] additional attacks per turn",
+			"can not defending <if attacked earlier>"
+		]
 	},
-{
+	{
 		"name": "100 mm AK1 (s automatickým nabíjením)",
-		"uniques": ["[4] additional attacks per turn", "can not defending <if attacked earlier>", "removes [75 mm Škoda A18 (s automatickým nabíjením)]"]
-	}
+		"uniques": [
+			"[4] additional attacks per turn",
+			"can not defending <if attacked earlier>",
+			"removes [75 mm Škoda A18 (s automatickým nabíjením)]"
+		]
+	},
+	//Classic promotions
+	{
+		"name": "Novice",
+		"uniques": [
+			"[+20]% XP gained from combat",
+			"[+10]% Strength"
+		],
+		"unitTypes": [
+			"Ranged Gunpowder",
+			"Gunpowder",
+			"Armored",
+			"Siege",
+			"Sword",
+			"Mounted",
+			"Archery",
+			"Scout",
+			"Ranged Water",
+			"Melee Water",
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Veteran",
+		"prerequisites": [
+			"Novice"
+		],
+		"uniques": [
+			"[+40]% XP gained from combat",
+			"[+10]% Strength"
+		],
+		"unitTypes": [
+			"Ranged Gunpowder",
+			"Gunpowder",
+			"Armored",
+			"Siege",
+			"Sword",
+			"Mounted",
+			"Archery",
+			"Scout",
+			"Ranged Water",
+			"Melee Water",
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Master",
+		"prerequisites": [
+			"Veteran"
+		],
+		"uniques": [
+			"[+60]% XP gained from combat",
+			"[+10]% Strength"
+		],
+		"unitTypes": [
+			"Ranged Gunpowder",
+			"Gunpowder",
+			"Armored",
+			"Siege",
+			"Sword",
+			"Mounted",
+			"Archery",
+			"Scout",
+			"Ranged Water",
+			"Melee Water",
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Expert",
+		"prerequisites": [
+			"Master"
+		],
+		"uniques": [
+			"[+25]% XP gained from combat",
+			"[+1] Movement",
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Ranged Gunpowder",
+			"Gunpowder",
+			"Armored",
+			"Siege",
+			"Sword",
+			"Mounted",
+			"Archery",
+			"Scout",
+			"Ranged Water",
+			"Melee Water",
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Elite",
+		"prerequisites": [
+			"Expert"
+		],
+		"uniques": [
+			"[+25]% XP gained from combat",
+			"[+1] Sight",
+			"Can pass through impassable tiles"
+		],
+		"unitTypes": [
+			"Ranged Gunpowder",
+			"Gunpowder",
+			"Armored",
+			"Siege",
+			"Sword",
+			"Mounted",
+			"Archery",
+			"Scout",
+			"Ranged Water",
+			"Melee Water",
+			"Aircraft Carrier"
+		]
+	},
+	{
+		"name": "Unsurpassed",
+		"prerequisites": [
+			"Elite"
+		],
+		"uniques": [
+			"[+25]% XP gained from combat",
+			"[+1] Movement",
+			"Can see over obstacles",
+			"[+10]% Strength bonus for [Military] units within [3] tiles"
+		],
+		"unitTypes": [
+			"Ranged Gunpowder",
+			"Gunpowder",
+			"Armored",
+			"Siege",
+			"Sword",
+			"Mounted",
+			"Archery",
+			"Scout",
+			"Ranged Water",
+			"Melee Water",
+			"Aircraft Carrier"
+		]
+	},
 ]
